@@ -5,56 +5,19 @@
 .HeroComponent__in {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 91vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-    180deg,
-    #050608 0%,
-    #06091a 40%,
-    #0d1550 70%,
-    #3139fb 120%
-  );
-}
-
-/* Atmospheric noise overlay */
-.HeroComponent__in::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
-  mix-blend-mode: overlay;
-}
-
-/* Floating dust motes */
-.hero__dust {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  animation: heroDustFloat 10s infinite linear;
-  z-index: 2;
-  pointer-events: none;
-}
-
-@keyframes heroDustFloat {
-  0%   { transform: translateY(100vh) translateX(0);    opacity: 0; }
-  20%  { opacity: 0.5; }
-  80%  { opacity: 0.5; }
-  100% { transform: translateY(-10vh) translateX(20px); opacity: 0; }
 }
 
 .HeroComponent__in::before {
   content: "";
   position: absolute;
   inset: 0;
-  /* background-image: url("/hero/image.png"); */
+  background-image: url("/hero/hero.png");
   background-size: cover;
   background-position: center;
   filter: blur(10px);
@@ -63,16 +26,10 @@
   z-index: -1;
 }
 
-.home__title,
-.hero__one,
-.hero__two {
-  position: relative;
-  z-index: 3;
-}
-
 .home__title {
+  background-color: rgb(255, 44, 171);
   width: fit-content;
-  padding: 0.2rem 2rem;
+  padding: 0rem 2rem;
   background-image: url("/hero/title.png");
   background-position: center;
   background-size: cover;
@@ -81,16 +38,14 @@
 }
 
 .home__title p {
-  font-size: 1rem;
-  font-family: poppins, sans-serif;
+  font-size: 1.2rem;
+  font-family: 'Lino1', sans-serif;
   font-weight: 600;
   color: white;
 }
 
 .home__title span {
-  font-size: 1rem;
-  font-family: "Minecraft", sans-serif;
-  font-weight: 200;
+  font-size: 1.5rem;
   color: rgb(255, 44, 171);
 }
 
@@ -107,6 +62,18 @@
 
 .hero__two {
   width: fit-content;
+  background-image: url("/hero/college.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem 2rem;
 }
 
- 
+.hero__two p {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
