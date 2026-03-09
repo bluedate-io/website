@@ -1,15 +1,21 @@
+
+
 .NavbarComponent {
   width: 100%;
-  /* background-color: rgb(255, 44, 171); */
-  background-color: #3139fb;
-  background-image: url("/noise.png");
-  font-family: "Minecraft", sans-serif;
-  border-bottom: 4px solid rgb(255, 44, 171);
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  backdrop-filter: blur(8px);
 }
 
 .NavbarComponent__in {
-  width: 100%;
-  padding: 1rem 2rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
