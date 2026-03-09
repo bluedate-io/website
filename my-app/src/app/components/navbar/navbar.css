@@ -1,0 +1,54 @@
+.NavbarComponent {
+  width: 100%;
+  /* background-color: rgb(255, 44, 171); */
+  background-color: #3139fb;
+  background-image: url("/noise.png");
+  font-family: "Minecraft", sans-serif;
+  border-bottom: 4px solid rgb(255, 44, 171);
+}
+
+.NavbarComponent__in {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__one {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navbar__one img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.navbar__one h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar__two {
+  width: fit-content;
+}
+
+.navbar__two button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+}
+
+.navbar__two button:hover {
+  background-color: white;
+  color: #3139fb;
+  border-color: transparent;
+}
