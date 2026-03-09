@@ -1,0 +1,71 @@
+.WhyComponent {
+  width: 100%;
+}
+
+.WhyComponent__in {
+  position: relative;
+  width: 100%;
+  min-height: 91vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.WhyComponent__in::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/image.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px);
+  transform: scale(1.1);
+  opacity: 1;
+  z-index: -1;
+}
+
+.why__one {
+  width: fit-content;
+  margin: 0 auto;
+  background-image: url("/hero/title.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.2rem 2rem;
+}
+
+.why__one h1 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.why__two {
+  width: fit-content;
+  margin: 0 auto;
+  background-image: url("/hero/title.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.2rem 2rem;
+}
+
+.why__two h1 {
+  font-size: 2rem;
+  color: rgb(255, 44, 171);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.why__three {
+  width: fit-content;
+  padding: 0.2rem 2rem;
+}
+
+.why__three p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
