@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./why.css";
 
-const why = () => {
+const Why = () => {
   return (
     <div className="WhyComponent">
         <div className="WhyComponent__in">
@@ -20,4 +20,4 @@ const why = () => {
   )
 }
 
-export default why
+export default Why

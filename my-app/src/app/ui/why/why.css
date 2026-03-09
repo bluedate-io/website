@@ -69,3 +69,29 @@
   font-weight: 600;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .WhyComponent__in {
+    padding: 3rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .why__one h1,
+  .why__two h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .why__three {
+    padding: 0.2rem 1rem;
+    text-align: center;
+  }
+
+  .why__three p {
+    font-size: 1.2rem;
+  }
+
+  .why__three br {
+    display: none;
+  }
+}

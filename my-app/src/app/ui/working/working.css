@@ -68,3 +68,24 @@
   font-weight: 400;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .working__two {
+    width: 90%;
+    padding: 2rem 0 0 0;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .working__step__left,
+  .working__step__right {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .working__step h1 {
+    font-size: 1.2rem;
+  }
+}

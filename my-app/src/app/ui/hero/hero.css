@@ -77,3 +77,37 @@
   font-optical-sizing: auto;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .HeroComponent__in {
+    padding: 2rem 1rem;
+    height: auto;
+    min-height: 91vh;
+  }
+
+  .home__title {
+    padding: 0.2rem 1rem;
+  }
+
+  .home__title p {
+    font-size: 1rem;
+  }
+
+  .home__title span {
+    font-size: 1.2rem;
+  }
+
+  .hero__one h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero__two {
+    padding: 0.5rem 1rem;
+  }
+
+  .hero__two p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
