@@ -1,25 +1,32 @@
-
+a
 .NavbarComponent {
   width: 100%;
   background-color: #3139fb;
   background-image: url("/noise.png");
-  position: relative;
-}
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* room for the scallop teeth */
+  padding-bottom: 13px;
 
-/* wave border */
-.NavbarComponent::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -23px;
-  width: 100%;
-  height: 24px;
+  /*
+    Two-layer mask:
+    1. Scalloped strip at the very bottom — circles cut holes (transparent) between blue teeth
+    2. Solid black covers everything above so content is fully visible
+  */
+  -webkit-mask-image:
+    radial-gradient(circle at 12px bottom, transparent 12px, black 13px),
+    linear-gradient(black, black);
+  -webkit-mask-size: 24px 14px, 100% calc(100% - 13px);
+  -webkit-mask-position: 0 bottom, 0 0;
+  -webkit-mask-repeat: repeat-x, no-repeat;
 
-  background-image:
-    url('/noise.png'),
-    radial-gradient(circle at 12px -6px, #3139fb 12px, transparent 13px);
-  background-repeat: repeat, repeat-x;
-  background-size: auto, 24px 24px;
+  mask-image:
+    radial-gradient(circle at 12px bottom, transparent 12px, black 13px),
+    linear-gradient(black, black);
+  mask-size: 24px 14px, 100% calc(100% - 13px);
+  mask-position: 0 bottom, 0 0;
+  mask-repeat: repeat-x, no-repeat;
 }
 
 .NavbarComponent__in {

@@ -62,6 +62,7 @@
 .why__three {
   width: fit-content;
   padding: 0.2rem 2rem;
+  text-align: center;
 }
 
 .why__three p {

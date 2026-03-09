@@ -1,105 +1,92 @@
-import React from "react";
-
+"use client";
+import { useState, useEffect } from "react";
 import "./footer.css";
 
+const bgImages = [
+  "/hero/1.png",
+  "/hero/2.png",
+];
+
+const navLinks = ["Home", "About", "Dating Tips", "Join Waitlist", "Contact"];
+
 const Footer = () => {
+  const [bg, setBg] = useState(bgImages[0]);
+
+  useEffect(() => {
+    const random = bgImages[Math.floor(Math.random() * bgImages.length)];
+    setBg(random);
+  }, []);
+
   return (
     <footer className="FooterComponent">
-      <div className="FooterComponent__in">
-        <div className="footer__card">
-          <div className="footer__card__content">
-            <p className="footer__eyebrow">Ready to go on real dates?</p>
-            <h2 className="footer__headline">
-              Ready to grow your dating life?
-              <span> Let&apos;s get started</span>
-            </h2>
+      {/* Background image with overlay */}
+      <div
+        className="footer__bg"
+        style={{ backgroundImage: `url('${bg}')` }}
+      />
+      <div className="footer__overlay" />
 
-            <div className="footer__contact">
-              <div className="footer__contact__details">
-                <p className="footer__contact__label">Get in touch</p>
-                <a href="mailto:hello@bluedate.io" className="footer__link">
-                  hello@bluedate.io
-                </a>
-                <a href="tel:+14408407532" className="footer__link">
-                  +1 (440) 840-7532
-                </a>
-                <a href="tel:+14467353224" className="footer__link">
-                  +1 (446) 735-3224
-                </a>
-              </div>
-
-              <form className="footer__form">
-                <div className="footer__form__row footer__form__row--split">
-                  <label className="footer__field">
-                    <span>First Name</span>
-                    <input type="text" placeholder="First name" />
-                  </label>
-                  <label className="footer__field">
-                    <span>Last Name</span>
-                    <input type="text" placeholder="Last name" />
-                  </label>
-                </div>
-
-                <div className="footer__form__row">
-                  <label className="footer__field">
-                    <span>Email</span>
-                    <input type="email" placeholder="you@example.com" />
-                  </label>
-                </div>
-
-                <div className="footer__form__row">
-                  <label className="footer__field">
-                    <span>Message</span>
-                    <textarea
-                      rows={3}
-                      placeholder="Tell us what you have in mind"
-                    />
-                  </label>
-                </div>
-
-                <button type="submit" className="footer__submit">
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="footer__bottom">
-            <div className="footer__bottom__links">
-              <div className="footer__bottom__column">
-                <p className="footer__bottom__heading">Company</p>
-                <button type="button">About</button>
-                <button type="button">Careers</button>
-                <button type="button">Press</button>
-              </div>
-
-              <div className="footer__bottom__column">
-                <p className="footer__bottom__heading">Product</p>
-                <button type="button">How it works</button>
-                <button type="button">Safety</button>
-                <button type="button">FAQ</button>
-              </div>
-
-              <div className="footer__bottom__column">
-                <p className="footer__bottom__heading">Legal</p>
-                <button type="button">Terms</button>
-                <button type="button">Privacy</button>
-              </div>
-            </div>
-
-            <div className="footer__bottom__meta">
-              <p>© {new Date().getFullYear()} bluedate. All rights reserved.</p>
-            </div>
-
-            <div className="footer__wordmark" aria-hidden="true">
-              bluedate.io
-            </div>
-          </div>
+      {/* Upper section */}
+      <div className="footer__upper">
+        <div className="footer__logo">
+          <span className="footer__logo-text">bluedate.io</span>
         </div>
+
+        <nav className="footer__nav">
+          {navLinks.map((link) => (
+            <a key={link} href="#" className="footer__nav-link">
+              {link}
+            </a>
+          ))}
+        </nav>
+
+        <div className="footer__socials">
+          {/* Facebook */}
+          <a href="#" className="footer__social-icon" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+          {/* X / Twitter */}
+          <a href="#" className="footer__social-icon" aria-label="X">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          {/* Instagram */}
+          <a href="#" className="footer__social-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="22" height="22">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+            </svg>
+          </a>
+          {/* LinkedIn */}
+          <a href="#" className="footer__social-icon" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div className="footer__divider" />
+
+      {/* Bottom bar */}
+      <div className="footer__bottom">
+        <div className="footer__bottom-logo">
+          <span className="footer__logo-text footer__logo-text--sm">bluedate.io</span>
+        </div>
+
+        <p className="footer__copyright">
+          Copyright 2025&copy; bluedate.io
+        </p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
-
