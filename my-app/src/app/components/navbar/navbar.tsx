@@ -1,6 +1,4 @@
-import React from "react";
-import Image from "next/image";
-
+import Link from "next/link";
 import "./navbar.css";
 
 const navbar = () => {
@@ -8,11 +6,10 @@ const navbar = () => {
     <div className="NavbarComponent">
       <div className="NavbarComponent__in">
         <div className="navbar__one">
-          {/* <Image src="/bluedate.io.png" alt="logo" width={50} height={50} /> */}
           <h1>bluedate.io</h1>
         </div>
         <div className="navbar__two">
-            <button>Join Waiting List</button>
+          <Link href="/join"><button>Join Waiting List</button></Link>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Why = () => {
     <div className="WhyComponent">
         <div className="WhyComponent__in">
             <div className="why__one">
-                <h1>Tired of Bumble & Tinder?????</h1>
+                <h1>Tired of endless swiping on Tinder & Bumble?</h1>
             </div>
             <div className="why__two">
                 <h1>bluedate is for youuu</h1>

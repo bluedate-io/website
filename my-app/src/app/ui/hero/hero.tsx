@@ -28,7 +28,8 @@ const hero = () => {
         </div>
 
         <div className="hero__one">
-          <h1>Get your IRL dates 1000X faster <br /> than traditional dating apps</h1>
+          <h1>Verified people. Private profiles. <br />
+          Coffee dates.</h1>
         </div>
         <div className="hero__two">
           <Image src={images[current]} alt="college" width={300} height={500} />
