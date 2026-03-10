@@ -41,6 +41,7 @@ const Match = () => {
         {/* Diagram */}
         <div className="match-diagram">
 
+
           {/* Profile name rows */}
           <div className="match-names-row">
             <div className="match-person">
