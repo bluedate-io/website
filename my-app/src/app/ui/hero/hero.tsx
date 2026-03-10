@@ -1,42 +1,46 @@
-"use client"
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import React from "react";
+import Link from "next/link";
 
 import "./hero.css";
 
-const hero = () => {
-  // Slideshow state
-  const images = [
-    "/hero/1.png",
-    "/hero/2.png"
-  ];
-  const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
-    }, 2000); // Change every 2 seconds
-    return () => clearInterval(interval);
-  }, []);
-
+const page = () => {
   return (
-    <div className="HeroComponent">
+    <div className="HeroComponent" id="home">
       <div className="HeroComponent__in">
-
-        <div className="home__title">
-          <p>No more <span>swipes</span></p>
+        <div className="hero__badge">
+          <span className="hero__badge-text">
+            {" "}
+            AI agents match you with the right person.
+          </span>
+          <Link href={"/"} className="hero__badge-btn">
+            Join waitlist &rarr;
+          </Link>
         </div>
 
-        <div className="hero__one">
-          <h1>Verified people. Private profiles. <br />
-          Coffee dates.</h1>
+        <div className="hero__main">
+          <h1 className="hero__title">
+            Get Real-Life Dates
+            <br />
+            <span className="hero__title__span" >Without Swiping</span>
+          </h1>
+          <p className="hero__tagline">
+            Tell us your type, interests, and vibe.
+            <br />
+            Our AI agent finds a compatible match and sends you a real-life date
+            invite.
+          </p>
         </div>
-        <div className="hero__two">
-          <Image src={images[current]} alt="college" width={300} height={500} />
+
+        <div className="hero__scroll">
+          <div className="hero__scroll-circle" />
+          <div className="hero__scroll-line" />
+          <div className="hero__scroll-arrow" />
+          <span className="hero__scroll-label">scroll to know more</span>
         </div>
+
       </div>
     </div>
   );
 };
 
-export default hero;
+export default page;
