@@ -5,6 +5,7 @@ import { createServerClient } from '@/lib/supabase';
 const MEN_OFFSET   = 20;
 const WOMEN_OFFSET = 68;
 
+
 export async function getWaitlistCounts() {
   const supabase = createServerClient();
 
