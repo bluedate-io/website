@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import './navbar.css'
 
@@ -9,7 +10,12 @@ const navbar = () => {
             <div className="NavbarComponent__in">
 
                 <div className="navbar__one">
-                    <p>bluedate.io</p>
+                    <Image 
+                        src="/logo.png"
+                        alt="Bluedate Logo"
+                        width={100}
+                        height={30}
+                    />
                 </div>
                 <div className="navbar__two">
                     <Link href={'#home'}>Home</Link>
@@ -17,7 +23,7 @@ const navbar = () => {
                     <Link href={'#faq'}>FAQs</Link>
                 </div>
                 <div className="navbar__three">
-                    <Link href={'#home'} className="navbar__login-btn">Join waitlist</Link>
+                    <Link href={'/waitlist'} className="navbar__login-btn">Join waitlist</Link>
                 </div>
 
             </div>

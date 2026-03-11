@@ -12,7 +12,7 @@ const page = () => {
             {" "}
             AI agents match you with the right person.
           </span>
-          <Link href={"/"} className="hero__badge-btn">
+          <Link href={"/waitlist"} className="hero__badge-btn">
             Join waitlist &rarr;
           </Link>
         </div>
@@ -24,10 +24,8 @@ const page = () => {
             <span className="hero__title__span" >Without Swiping</span>
           </h1>
           <p className="hero__tagline">
-            Tell us your type, interests, and vibe.
-            <br />
-            Our AI agent finds a compatible match and sends you a real-life date
-            invite.
+            Tell us your type, interests, and vibe. Our AI agent finds a
+            compatible match and sends you a real-life date invite.
           </p>
         </div>
 

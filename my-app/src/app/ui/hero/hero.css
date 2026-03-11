@@ -12,9 +12,9 @@
     justify-content: center;
     align-items: center;
     background-color: #EDEAE3;
-    padding: 96px 20px 64px;
+    padding: 80px 20px 56px;
     text-align: center;
-    gap: 24px;
+    gap: 20px;
     position: relative;
     overflow: hidden;
 }
@@ -53,7 +53,8 @@
     position: relative;
     z-index: 1;
     box-shadow: 0 2px 12px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.9);
-    max-width: calc(100vw - 32px);
+    max-width: calc(100vw - 40px);
+    width: max-content;
 }
 
 .hero__badge-text {
@@ -97,10 +98,10 @@
 }
 
 .hero__title {
-    font-size: clamp(32px, 8vw, 76px);
+    font-size: clamp(36px, 10vw, 76px);
     font-weight: 800;
     color: #0a0a0a;
-    line-height: 1.0;
+    line-height: 1.05;
     letter-spacing: -0.03em;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -110,21 +111,14 @@
     color: #0a0a0a;
     position: relative;
 }
-.hero__title__span::after {
-    content: '';
-    position: absolute;
-    bottom: 2px; left: 0; right: 0;
-    height: 3px;
-    background: #0a0a0a;
-    opacity: 0.12;
-}
+
 
 .hero__tagline {
-    font-size: clamp(13px, 2.5vw, 17px);
+    font-size: clamp(14px, 3.5vw, 17px);
     font-weight: 400;
     color: #666;
     margin: 0;
-    line-height: 1.7;
+    line-height: 1.65;
     max-width: 480px;
 }
 
@@ -184,6 +178,14 @@
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* ── xs: very small phones (≤360px) ── */
+@media (max-width: 360px) {
+    .HeroComponent__in { padding: 72px 16px 48px; gap: 16px; }
+    .hero__badge-text { font-size: 10px; }
+    .hero__badge-btn  { font-size: 10px; padding: 6px 10px; }
+    .hero__scroll-label { font-size: 8px; }
 }
 
 /* ── md ── */

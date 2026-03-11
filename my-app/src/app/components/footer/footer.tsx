@@ -20,7 +20,7 @@ const Footer = () => {
             <Link href="#faq">FAQ</Link>
           </nav>
 
-          <Link href="#home" className="footer-cta">Join the waitlist &rarr;</Link>
+          <Link href="/waitlist" className="footer-cta">Join the waitlist &rarr;</Link>
         </div>
 
         <div className="footer-bottom">
