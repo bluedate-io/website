@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "./components/navbar/navbar.css";
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 

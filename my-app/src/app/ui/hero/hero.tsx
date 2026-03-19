@@ -7,6 +7,7 @@ const page = () => {
   return (
     <div className="HeroComponent" id="home">
       <div className="HeroComponent__in">
+        <div className="hero__bg" />
         <div className="hero__badge">
           <span className="hero__badge-text">
             {" "}

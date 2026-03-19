@@ -20,6 +20,17 @@ export async function getWaitlistCounts() {
   };
 }
 
+export async function getWaitlistEntries() {
+  const supabase = createServerClient();
+  const { data, error } = await supabase
+    .from('waitlist')
+    .select('*')
+    .order('created_at', { ascending: false });
+
+  if (error) return { success: false, error: error.message, entries: [] };
+  return { success: true, entries: data ?? [] };
+}
+
 export async function joinWaitlist(formData: FormData) {
   const email = formData.get('email') as string;
   const gender = formData.get('gender') as string;

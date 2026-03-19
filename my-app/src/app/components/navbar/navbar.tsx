@@ -10,12 +10,13 @@ const navbar = () => {
             <div className="NavbarComponent__in">
 
                 <div className="navbar__one">
-                    <Image 
-                        src="/logo.png"
+                    <Image
+                        src="/bluedate.png"
                         alt="Bluedate Logo"
-                        width={100}
-                        height={30}
+                        width={20}
+                        height={20}
                     />
+                    <p>Bluedate</p>
                 </div>
                 <div className="navbar__two">
                     <Link href={'#home'}>Home</Link>
