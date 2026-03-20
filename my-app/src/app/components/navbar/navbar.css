@@ -1,0 +1,111 @@
+
+
+.NavbarComponent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 16px;
+}
+
+.NavbarComponent__in {
+    width: fit-content;
+    max-width: calc(100vw - 32px);
+    border-radius: 2rem;
+    background-color: rgb(43, 26, 7);
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .75rem;
+}
+
+.navbar__logo {
+    width: fit-content;
+    flex-shrink: 0;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.navbar__logo img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.navbar__name {
+    width: fit-content;
+    flex-shrink: 0;
+}
+
+.navbar__name h1 {
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'font4', sans-serif;
+}
+
+/* Hide tagline on mobile – it wraps and breaks the layout */
+.navbar__one {
+    display: none;
+}
+
+.navbar__two {
+    width: fit-content;
+    flex-shrink: 0;
+}
+
+.navbar__two button {
+    font-size: 0.85rem;
+    color: white;
+    font-family: 'font4', sans-serif;
+    background-color: rgb(255, 111, 30);
+    padding: .4rem .85rem;
+    border-radius: 1.5rem;
+    white-space: nowrap;
+}
+
+/* ── Show tagline back on tablet+ ─────────────────────────── */
+@media (min-width: 640px) {
+    .NavbarComponent {
+        padding: 1.5rem 0;
+    }
+
+    .NavbarComponent__in {
+        max-width: none;
+        gap: 1rem;
+    }
+
+    .navbar__logo img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .navbar__name h1 {
+        font-size: 1.5rem;
+    }
+
+    .navbar__one {
+        display: block;
+        border-left: 2px solid white;
+        padding-left: 1rem;
+    }
+
+    .navbar__one p {
+        font-size: 1rem;
+        color: white;
+        font-family: 'font4', sans-serif;
+    }
+
+    .navbar__two button {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .NavbarComponent {
+        padding: 2rem 0;
+    }
+}
+

@@ -1,0 +1,52 @@
+import React from 'react'
+import './Footer.css'
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+
+      {/* ── Top row: tagline + nav ── */}
+      <div className="footer__top">
+        <p className="footer__tagline">
+          Real dates.<br />Real connections.
+        </p>
+
+        <nav className="footer__nav">
+          <div className="footer__nav-col">
+            <a href="#" className="footer__link">Our Story</a>
+            <a href="#" className="footer__link">Write to us</a>
+          </div>
+          <div className="footer__nav-col">
+            <a href="#" className="footer__link">Instagram</a>
+            <a href="#" className="footer__link">WhatsApp</a>
+            <a href="#" className="footer__link">X (Twitter)</a>
+          </div>
+        </nav>
+      </div>
+
+      {/* ── SVG filter for liquid distortion ── */}
+      <svg width="0" height="0" style={{ position: 'absolute' }}>
+        <defs>
+          <filter id="liquid" x="-5%" y="-5%" width="110%" height="110%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.012 0.008"
+              numOctaves="3" seed="8" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise"
+              scale="14" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </defs>
+      </svg>
+
+      {/* ── Full-bleed wordmark ── */}
+      <div className="footer__wordmark" aria-hidden="true">bluedate</div>
+
+      {/* ── Bottom bar: overlaid on wordmark ── */}
+      <div className="footer__bottom">
+        <span className="footer__legal">Bluedate Inc.</span>
+        <span className="footer__credit">Designed and built in India</span>
+      </div>
+
+    </footer>
+  )
+}
+
+export default Footer

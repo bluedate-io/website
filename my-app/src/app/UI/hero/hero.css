@@ -1,0 +1,311 @@
+/* ── Base (mobile-first) ──────────────────────────────────────── */
+
+.HeroComponent {
+    width: 100%;
+}
+
+.HeroComponent__in {
+    width: 100%;
+    min-height: calc(100svh - 72px); /* subtract navbar height on mobile */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 24px 24px 48px;
+    box-sizing: border-box;
+}
+
+/* Images – hidden on mobile by default, shown at larger sizes */
+.hero__img {
+    position: absolute;
+    object-fit: cover;
+    border-radius: 16px;
+    display: none;
+}
+
+.hero__img--left {
+    transform: rotate(-6deg);
+}
+
+.hero__img--right {
+    transform: rotate(5deg);
+}
+
+/* Tagline */
+.hero__one {
+    width: fit-content;
+    text-align: center;
+}
+
+.hero__one p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 111, 30);
+    font-family: cursive;
+}
+
+/* Headline */
+.hero__two {
+    width: 100%;
+    text-align: center;
+}
+
+.hero__two h1 {
+    font-size: clamp(2rem, 11vw, 4.2rem);
+    font-weight: 500;
+    color: rgb(43, 26, 7);
+    font-family: 'Font1', sans-serif;
+    line-height: 1.15;
+}
+
+.hero__nowrap {
+    font-size: clamp(1.5rem, 9vw, 4.2rem);
+}
+
+/* Coffee word */
+.hero__coffee {
+    position: relative;
+    display: inline-block;
+    color: rgb(209, 53, 100);
+    margin: 0 0.3rem;
+}
+
+.hero__circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130%;
+    height: 160%;
+    pointer-events: none;
+    overflow: visible;
+}
+
+/* CTA Button */
+.hero__cta {
+    margin-top: 8px;
+}
+
+.hero__cta-btn {
+    font-size: 1.05rem;
+    font-family: 'Font1', sans-serif;
+    color: rgb(43, 26, 7);
+    background-color: rgb(253, 251, 249);
+    border: 2.5px solid rgb(43, 26, 7);
+    padding: 0.6rem 1.8rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px rgb(43, 26, 7);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.hero__cta-btn:hover {
+    box-shadow: 5px 5px 0px rgb(43, 26, 7);
+    transform: translate(-1px, -1px);
+}
+
+.hero__cta-btn:active {
+    box-shadow: 1px 1px 0px rgb(43, 26, 7);
+    transform: translate(2px, 2px);
+}
+
+/* Sub-text */
+.hero__three {
+    width: 100%;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.hero__three p {
+    font-size: clamp(1.6rem, 7vw, 2.8rem);
+    color: rgb(43, 26, 7);
+    font-family: 'Font2', cursive;
+    line-height: 1.2;
+    margin: 0 auto;
+}
+
+.hero__at {
+    color: rgb(255, 111, 30);
+}
+
+
+/* ── Small phones  (≥ 375px) ──────────────────────────────────── */
+@media (min-width: 375px) {
+    .hero__one p {
+        font-size: 1.05rem;
+    }
+}
+
+
+/* ── Large phones  (≥ 480px) ──────────────────────────────────── */
+@media (min-width: 480px) {
+    .HeroComponent__in {
+        gap: 14px;
+        padding: 80px 32px 48px;
+    }
+
+    .hero__one p {
+        font-size: 1.15rem;
+    }
+}
+
+
+/* ── Tablets  (≥ 640px) ───────────────────────────────────────── */
+@media (min-width: 640px) {
+    .HeroComponent__in {
+        min-height: 90svh;
+        padding: 40px 40px 56px;
+    }
+
+    /* Show images, small & tucked into corners */
+    .hero__img {
+        display: block;
+        width: 130px !important;
+    }
+
+    .hero__img--left {
+        left: 0px;
+        top: 10%;
+    }
+
+    .hero__img--right {
+        right: 0px;
+        bottom: 10%;
+    }
+
+    .hero__two {
+        max-width: 80%;
+    }
+}
+
+
+/* ── Large tablets  (≥ 768px) ────────────────────────────────── */
+@media (min-width: 768px) {
+    .HeroComponent__in {
+        min-height: 85svh;
+        gap: 16px;
+        padding: 40px 48px 64px;
+    }
+
+    .hero__img {
+        width: 160px !important;
+        border-radius: 18px;
+    }
+
+    .hero__img--left {
+        left: 8px;
+        top: 8%;
+    }
+
+    .hero__img--right {
+        right: 8px;
+        bottom: 8%;
+    }
+
+    .hero__one p {
+        font-size: 1.25rem;
+    }
+
+    .hero__two {
+        max-width: 75%;
+    }
+}
+
+
+/* ── Laptops  (≥ 1024px) ─────────────────────────────────────── */
+@media (min-width: 1024px) {
+    .HeroComponent__in {
+        min-height: 82svh;
+        gap: 14px;
+        padding: 80px 0 56px;
+    }
+
+    .hero__img {
+        width: 200px !important;
+        border-radius: 20px;
+    }
+
+    .hero__img--left {
+        left: 2vw;
+        top: 8%;
+    }
+
+    .hero__img--right {
+        right: 2vw;
+        bottom: 8%;
+    }
+
+    .hero__one p {
+        font-size: 1.4rem;
+    }
+
+    .hero__two {
+        max-width: 65%;
+    }
+}
+
+
+/* ── Desktops  (≥ 1280px) ────────────────────────────────────── */
+@media (min-width: 1280px) {
+    .HeroComponent__in {
+        min-height: 80svh;
+        gap: 12px;
+    }
+
+    .hero__img {
+        width: 220px !important;
+    }
+
+    .hero__img--left {
+        left: 3vw;
+        top: 8%;
+    }
+
+    .hero__img--right {
+        right: 3vw;
+        bottom: 8%;
+    }
+
+    .hero__one p {
+        font-size: 1.5rem;
+    }
+
+    .hero__two {
+        max-width: 60%;
+    }
+}
+
+
+/* ── Wide screens  (≥ 1536px) ───────────────────────────────── */
+@media (min-width: 1536px) {
+    .hero__img {
+        width: 260px !important;
+    }
+
+    .hero__img--left {
+        left: 5vw;
+    }
+
+    .hero__img--right {
+        right: 5vw;
+    }
+
+    .hero__two {
+        max-width: 55%;
+    }
+}
+
+
+/* ── Ultra-wide  (≥ 1920px) ─────────────────────────────────── */
+@media (min-width: 1920px) {
+    .hero__img {
+        width: 300px !important;
+    }
+
+    .hero__two {
+        max-width: 50%;
+    }
+}
