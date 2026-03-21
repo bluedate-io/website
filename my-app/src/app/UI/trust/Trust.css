@@ -58,7 +58,6 @@
     gap: 12px;
     text-align: center;
     transition: transform 0.18s ease;
-    will-change: transform;
     cursor: default;
 }
 
@@ -121,6 +120,13 @@
 
 .trust__title--light {
     color: rgb(253, 251, 249);
+}
+
+/* ── Enable GPU layer only on pointer/hover devices ─────────── */
+@media (hover: hover) {
+    .trust__card {
+        will-change: transform;
+    }
 }
 
 /* ── Tablet (≥ 600px) ────────────────────────────────────────── */

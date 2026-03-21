@@ -51,7 +51,6 @@
     flex-direction: column;
     gap: 10px;
     transition: transform 0.18s ease;
-    will-change: transform;
     cursor: default;
 }
 
@@ -125,6 +124,13 @@
     color: rgb(100, 80, 60);
     line-height: 1.6;
     margin: 0;
+}
+
+/* ── Enable GPU layer only on pointer/hover devices ─────────── */
+@media (hover: hover) {
+    .hiw__card {
+        will-change: transform;
+    }
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */

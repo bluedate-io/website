@@ -61,14 +61,19 @@
 
 /* ── Answer panel ────────────────────────────────────────────── */
 .faq__answer-wrapper {
-  overflow: hidden;
-  max-height: 0;
+  display: grid;
+  grid-template-rows: 0fr;
   opacity: 0;
-  transition: max-height 0.2s ease, opacity 0.15s ease;
+  transition: grid-template-rows 0.22s ease, opacity 0.18s ease;
+}
+
+.faq__answer-wrapper > .faq__answer {
+  overflow: hidden;
+  min-height: 0;
 }
 
 .faq__answer-wrapper.open {
-  max-height: 300px;
+  grid-template-rows: 1fr;
   opacity: 1;
 }
 

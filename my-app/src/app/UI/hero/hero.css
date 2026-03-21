@@ -107,7 +107,6 @@
     cursor: pointer;
     box-shadow: 3px 3px 0px rgb(43, 26, 7);
     transition: transform 0.15s ease;
-    will-change: transform;
 }
 
 .hero__cta-btn:hover {
