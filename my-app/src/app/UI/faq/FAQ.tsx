@@ -40,25 +40,12 @@ const FAQ = () => {
                 aria-expanded={open === i}
               >
                 <span>{item.q}</span>
-                <svg
-                  className="faq__icon"
-                  width="22" height="22" viewBox="0 0 22 22"
-                  fill="none" xmlns="http://www.w3.org/2000/svg"
-                >
-                  {/* horizontal bar always visible */}
-                  <line x1="4" y1="11" x2="18" y2="11"
-                    stroke="rgb(43,26,7)" strokeWidth="2.5" strokeLinecap="round" />
-                  {/* vertical bar — hides when open via CSS rotation */}
-                  <line
-                    className="faq__icon-v"
-                    x1="11" y1="4" x2="11" y2="18"
-                    stroke="rgb(43,26,7)" strokeWidth="2.5" strokeLinecap="round"
-                  />
-                </svg>
               </button>
 
-              <div className={`faq__answer${open === i ? ' faq__answer--open' : ''}`}>
-                <p>{item.a}</p>
+              <div className={`faq__answer-wrapper${open === i ? ' open' : ''}`}>
+                <div className="faq__answer">
+                  <p>{item.a}</p>
+                </div>
               </div>
 
               <div className="faq__divider" />

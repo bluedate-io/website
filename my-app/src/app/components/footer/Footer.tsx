@@ -18,8 +18,6 @@ const Footer = () => {
           </div>
           <div className="footer__nav-col">
             <a href="#" className="footer__link">Instagram</a>
-            <a href="#" className="footer__link">WhatsApp</a>
-            <a href="#" className="footer__link">X (Twitter)</a>
           </div>
         </nav>
       </div>
