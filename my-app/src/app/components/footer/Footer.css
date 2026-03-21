@@ -20,11 +20,17 @@
 
 .footer__tagline {
     font-family: 'Font1', sans-serif;
-    font-size: clamp(1.5rem, 4.5vw, 2.2rem);
+    font-size: 1.1rem;
     font-weight: 500;
     color: rgb(255, 255, 255);
     line-height: 1.25;
     margin: 0;
+}
+
+@media (min-width: 640px) {
+    .footer__tagline {
+        font-size: clamp(1.5rem, 4.5vw, 2.2rem);
+    }
 }
 
 /* ── Nav links ───────────────────────────────────────────────── */

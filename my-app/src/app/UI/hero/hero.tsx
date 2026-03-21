@@ -1,29 +1,21 @@
 import React from 'react'
-import Image from 'next/image'
-
 import "./hero.css"
 
 const hero = () => {
   return (
         <div className="HeroComponent">
             <div className="HeroComponent__in">
-                <Image
-                    src="/1.png"
-                    alt="hero image 1"
-                    width={300}
-                    height={400}
+                <div
                     className="hero__img hero__img--left"
-                    style={{ height: 'auto' }}
-                    sizes="(max-width: 639px) 0px, (max-width: 767px) 130px, (max-width: 1023px) 160px, (max-width: 1279px) 200px, (max-width: 1535px) 220px, 300px"
+                    role="img"
+                    aria-label="hero image 1"
+                    style={{ backgroundImage: 'url(/1.png)' }}
                 />
-                <Image
-                    src="/2.png"
-                    alt="hero image 2"
-                    width={300}
-                    height={400}
+                <div
                     className="hero__img hero__img--right"
-                    style={{ height: 'auto' }}
-                    sizes="(max-width: 639px) 0px, (max-width: 767px) 130px, (max-width: 1023px) 160px, (max-width: 1279px) 200px, (max-width: 1535px) 220px, 300px"
+                    role="img"
+                    aria-label="hero image 2"
+                    style={{ backgroundImage: 'url(/2.png)' }}
                 />
                 <div className="hero__one">
                     <p>Welcome, The AI era of dating!</p>

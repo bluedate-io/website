@@ -18,20 +18,27 @@
     box-sizing: border-box;
 }
 
-/* Images – hidden on mobile by default, shown at larger sizes */
+/* Images – background-image divs, shown on all sizes */
 .hero__img {
     position: absolute;
-    object-fit: cover;
     border-radius: 16px;
-    display: none;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 120px;
 }
 
 .hero__img--left {
     transform: rotate(-6deg);
+    left: -10px;
+    top: 8%;
 }
 
 .hero__img--right {
     transform: rotate(5deg);
+    right: -10px;
+    bottom: 8%;
 }
 
 /* Tagline */
@@ -99,7 +106,8 @@
     border-radius: 1.5rem;
     cursor: pointer;
     box-shadow: 3px 3px 0px rgb(43, 26, 7);
-    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    transition: transform 0.15s ease;
+    will-change: transform;
 }
 
 .hero__cta-btn:hover {
@@ -160,10 +168,9 @@
         padding: 40px 40px 56px;
     }
 
-    /* Show images, small & tucked into corners */
     .hero__img {
-        display: block;
-        width: 130px !important;
+        width: 130px;
+        height: 173px;
     }
 
     .hero__img--left {
@@ -191,7 +198,8 @@
     }
 
     .hero__img {
-        width: 160px !important;
+        width: 160px;
+        height: 213px;
         border-radius: 18px;
     }
 
@@ -224,7 +232,8 @@
     }
 
     .hero__img {
-        width: 200px !important;
+        width: 180px;
+        height: 180px;
         border-radius: 20px;
     }
 
@@ -256,7 +265,8 @@
     }
 
     .hero__img {
-        width: 220px !important;
+        width: 180px;
+        height: 180px;
     }
 
     .hero__img--left {
@@ -282,7 +292,8 @@
 /* ── Wide screens  (≥ 1536px) ───────────────────────────────── */
 @media (min-width: 1536px) {
     .hero__img {
-        width: 260px !important;
+        width: 260px;
+        height: 347px;
     }
 
     .hero__img--left {
@@ -302,7 +313,8 @@
 /* ── Ultra-wide  (≥ 1920px) ─────────────────────────────────── */
 @media (min-width: 1920px) {
     .hero__img {
-        width: 300px !important;
+        width: 300px;
+        height: 400px;
     }
 
     .hero__two {

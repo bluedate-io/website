@@ -3,6 +3,7 @@
   width: 100%;
   padding: 24px 24px 40px;
   box-sizing: border-box;
+  content-visibility: auto;
 }
 
 .faq__inner {
@@ -51,30 +52,27 @@
   font-weight: 500;
   color: rgb(43, 26, 7);
   line-height: 1.35;
-  transition: color 0.15s ease;
+  transition: color 0.1s ease;
 }
 
 .faq__q--open span {
   color: rgb(255, 111, 30);
 }
 
-/* ── Answer panel — grid trick: collapses height without layout thrash ── */
+/* ── Answer panel ────────────────────────────────────────────── */
 .faq__answer-wrapper {
-  display: grid;
-  grid-template-rows: 0fr;
+  overflow: hidden;
+  max-height: 0;
   opacity: 0;
-  transition: grid-template-rows 0.22s ease, opacity 0.18s ease;
+  transition: max-height 0.2s ease, opacity 0.15s ease;
 }
 
 .faq__answer-wrapper.open {
-  grid-template-rows: 1fr;
+  max-height: 300px;
   opacity: 1;
 }
 
-/* min-height:0 is required for the grid collapse to work */
 .faq__answer {
-  overflow: hidden;
-  min-height: 0;
   padding-bottom: 16px;
 }
 
