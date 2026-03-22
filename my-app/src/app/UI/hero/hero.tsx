@@ -1,23 +1,36 @@
 import React from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import "./hero.css"
+
+const heroSizes =
+  '(max-width: 639px) 90px, (max-width: 767px) 130px, (max-width: 1023px) 160px, (max-width: 1535px) 180px, 300px'
 
 const hero = () => {
   return (
         <div className="HeroComponent">
             <div className="HeroComponent__in">
-                <div
-                    className="hero__img hero__img--left"
-                    role="img"
-                    aria-label="hero image 1"
-                    style={{ backgroundImage: 'url(/1.png)' }}
-                />
-                <div
-                    className="hero__img hero__img--right"
-                    role="img"
-                    aria-label="hero image 2"
-                    style={{ backgroundImage: 'url(/2.png)' }}
-                />
+                <div className="hero__img hero__img--left" aria-hidden>
+                  <Image
+                    src="/1.png"
+                    alt=""
+                    fill
+                    sizes={heroSizes}
+                    className="hero__img__fill"
+                    priority
+                  />
+                </div>
+                <div className="hero__img hero__img--right" aria-hidden>
+                  <Image
+                    src="/2.png"
+                    alt=""
+                    fill
+                    sizes={heroSizes}
+                    className="hero__img__fill"
+                    loading="eager"
+                    fetchPriority="high"
+                  />
+                </div>
                 <div className="hero__one">
                     <p>Welcome, The AI era of dating!</p>
                 </div>

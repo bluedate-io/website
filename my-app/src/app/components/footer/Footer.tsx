@@ -16,7 +16,14 @@ const Footer = () => {
           <div className="footer__nav-col">
             <a href="#" className="footer__link">Our Story</a>
             <a href="#" className="footer__link">Write to us</a>
-            <a href="#" className="footer__link">Instagram</a>
+            <a
+              href="https://www.instagram.com/bluedate.io/"
+              className="footer__link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
           </div>
           <div className="footer__nav-col">
             <Link href="/privacy" className="footer__link">Privacy Policy</Link>
