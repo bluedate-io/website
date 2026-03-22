@@ -1,70 +1,77 @@
 .JoinPage {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  padding: 24px;
-}
-
-.JoinPage__in {
+  width: 100%;
+  min-height: 100svh;
+  background: var(--background);
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  max-width: 480px;
-  width: 100%;
-  gap: 24px;
 }
 
-.JoinPage__logo {
+.JoinPage__in {
+  flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 48px 24px 64px;
+  max-width: 600px;
+  width: 100%;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.JoinPage__icon {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .JoinPage__title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #0a0a0a;
+  font-size: clamp(2rem, 8vw, 3.2rem);
+  font-weight: 500;
+  color: rgb(43, 26, 7);
+  font-family: 'Font1', sans-serif;
+  line-height: 1.15;
   margin: 0;
-  line-height: 1.2;
 }
 
 .JoinPage__body {
-  font-size: 1.1rem;
-  color: #444;
+  font-size: clamp(1rem, 3.5vw, 1.2rem);
+  color: rgb(43, 26, 7);
+  font-family: 'Font4', sans-serif;
   line-height: 1.7;
   margin: 0;
+  max-width: 480px;
+  opacity: 0.85;
 }
 
-.JoinPage__body strong {
-  color: #0080ff;
+.JoinPage__highlight {
+  color: rgb(255, 111, 30);
+  font-weight: 700;
 }
 
 .JoinPage__btn {
   display: inline-block;
-  background: #0080ff;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 14px 40px;
-  border-radius: 999px;
+  font-size: 1.05rem;
+  font-family: 'Font1', sans-serif;
+  color: rgb(43, 26, 7);
+  background-color: rgb(253, 251, 249);
+  border: 2.5px solid rgb(43, 26, 7);
+  padding: 0.6rem 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px rgb(43, 26, 7);
   text-decoration: none;
-  transition: background 0.2s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
   margin-top: 8px;
 }
 
 .JoinPage__btn:hover {
-  background: #006de0;
+  box-shadow: 5px 5px 0px rgb(43, 26, 7);
+  transform: translate(-1px, -1px);
 }
 
-@media (max-width: 480px) {
-  .JoinPage__title {
-    font-size: 1.5rem;
-  }
-
-  .JoinPage__body {
-    font-size: 1rem;
-  }
+.JoinPage__btn:active {
+  box-shadow: 1px 1px 0px rgb(43, 26, 7);
+  transform: translate(2px, 2px);
 }
