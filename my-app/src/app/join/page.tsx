@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Navbar from '@/app/components/navbar/navbar'
 import './join.css'
 
@@ -7,7 +8,9 @@ export default function JoinPage() {
     <div className="JoinPage">
       <Navbar />
       <div className="JoinPage__in">
-        <div className="JoinPage__icon" aria-hidden="true">🔒</div>
+        <div className="JoinPage__icon">
+          <Image src="/logo.png" alt="Bluedate" width={64} height={64} />
+        </div>
         <h1 className="JoinPage__title">Your privacy is our promise.</h1>
         <p className="JoinPage__body">
           Your data is <span className="JoinPage__highlight">100% protected</span> and never publicly available.
