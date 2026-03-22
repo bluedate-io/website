@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import "./hero.css"
 
 const hero = () => {
@@ -58,7 +59,7 @@ const hero = () => {
                     <p><span className="hero__at">@</span>your college</p>
                 </div>
                 <div className="hero__cta">
-                    <button className="hero__cta-btn">Join Now</button>
+                    <Link href="/join"><button className="hero__cta-btn">Join Now</button></Link>
                 </div>
             </div>
         </div>

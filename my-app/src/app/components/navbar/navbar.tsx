@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 
 import "./navbar.css"
 
@@ -20,7 +21,7 @@ const navbar = () => {
                     <p>100% verified profiles & curated college date spots.</p>
                 </div>
                 <div className="navbar__two">
-                    <button>Get Started</button>
+                    <Link href="/join"><button>Get Started</button></Link>
                 </div>
             </div>
         </div>
