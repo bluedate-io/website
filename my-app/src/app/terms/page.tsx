@@ -129,7 +129,7 @@ export default function TermsAndConditions() {
               <p>
                 All content on the Bluedate platform — including but not limited to text,
                 graphics, logos, icons, software, and AI models — is the exclusive property of
-                Bluedate Inc. and is protected under the <strong>Copyright Act, 1957</strong> and
+                Bluedate and is protected under the <strong>Copyright Act, 1957</strong> and
                 the <strong>Trade Marks Act, 1999</strong>. You may not reproduce, distribute,
                 or create derivative works without our prior written consent.
               </p>
@@ -159,7 +159,7 @@ export default function TermsAndConditions() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">10. Limitation of Liability</h2>
               <p>
-                To the maximum extent permitted by applicable Indian law, Bluedate Inc. and its
+                To the maximum extent permitted by applicable Indian law, Bluedate and its
                 officers, directors, employees, and agents shall not be liable for any indirect,
                 incidental, special, consequential, or punitive damages arising out of your use
                 of or inability to use the platform, including but not limited to loss of data,

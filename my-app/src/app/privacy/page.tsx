@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
           <div className="LegalPage__body">
 
             <p className="LegalPage__intro">
-              Bluedate Inc. (&ldquo;Bluedate&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting the
+              Bluedate (&ldquo;Bluedate&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting the
               privacy of every user. This Privacy Policy explains how we collect, use, share, and
               safeguard your personal data when you access our website (<strong>bluedate.io</strong>)
               and application (<strong>app.bluedate.io</strong>). It is governed by and compliant with
@@ -37,11 +37,11 @@ export default function PrivacyPolicy() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">1. Who We Are</h2>
               <p>
-                Bluedate Inc. is the <strong>Data Fiduciary</strong> as defined under the DPDP Act, 2023.
+                Bluedate is the <strong>Data Fiduciary</strong> as defined under the DPDP Act, 2023.
                 We determine the purpose and means of processing your personal data.
               </p>
               <ul>
-                <li><strong>Company name:</strong> Bluedate Inc.</li>
+                <li><strong>Company name:</strong> Bluedate</li>
                 <li><strong>Registered in:</strong> India</li>
                 <li><strong>Contact:</strong> privacy@bluedate.io</li>
               </ul>
@@ -184,7 +184,7 @@ export default function PrivacyPolicy() {
                 Grievance Officer:
               </p>
               <ul>
-                <li><strong>Name:</strong> Grievance Officer, Bluedate Inc.</li>
+                <li><strong>Name:</strong> Grievance Officer, Bluedate</li>
                 <li><strong>Email:</strong> grievance@bluedate.io</li>
                 <li><strong>Response time:</strong> Within 15 days of receipt of complaint</li>
               </ul>

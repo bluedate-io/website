@@ -22,7 +22,7 @@ const websiteSchema = {
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Bluedate Inc.",
+  name: "Bluedate",
   url: "https://bluedate.io",
   logo: "https://bluedate.io/logo.png",
   sameAs: ["https://www.instagram.com/bluedate.io"],

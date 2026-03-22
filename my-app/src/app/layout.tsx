@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     "student dating app India",
   ],
 
-  authors: [{ name: "Bluedate Inc." }],
-  creator: "Bluedate Inc.",
-  publisher: "Bluedate Inc.",
+  authors: [{ name: "Bluedate" }],
+  creator: "Bluedate",
+  publisher: "Bluedate",
 
   alternates: {
     canonical: BASE_URL,

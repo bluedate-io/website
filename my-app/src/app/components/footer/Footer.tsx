@@ -42,7 +42,7 @@ const Footer = () => {
 
       {/* ── Bottom bar: overlaid on wordmark ── */}
       <div className="footer__bottom">
-        <span className="footer__legal">Bluedate Inc.</span>
+        <span className="footer__legal">Bluedate</span>
         <span className="footer__credit">Designed and built in India</span>
       </div>
 
