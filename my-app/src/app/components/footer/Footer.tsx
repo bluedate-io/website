@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import './Footer.css'
 
 const Footer = () => {
@@ -15,9 +16,11 @@ const Footer = () => {
           <div className="footer__nav-col">
             <a href="#" className="footer__link">Our Story</a>
             <a href="#" className="footer__link">Write to us</a>
+            <a href="#" className="footer__link">Instagram</a>
           </div>
           <div className="footer__nav-col">
-            <a href="#" className="footer__link">Instagram</a>
+            <Link href="/privacy" className="footer__link">Privacy Policy</Link>
+            <Link href="/terms" className="footer__link">Terms &amp; Conditions</Link>
           </div>
         </nav>
       </div>

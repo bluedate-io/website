@@ -1,0 +1,159 @@
+/* ── Legal pages (Privacy Policy & Terms) ─────────────────────── */
+
+.LegalPage {
+  width: 100%;
+  min-height: 100svh;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LegalPage__main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 48px 24px 80px;
+  box-sizing: border-box;
+}
+
+.LegalPage__in {
+  width: 100%;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* ── Header ──────────────────────────────────────────────────── */
+.LegalPage__header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 32px;
+  border-bottom: 2px solid rgb(43, 26, 7);
+}
+
+.LegalPage__label {
+  font-size: 0.85rem;
+  font-family: 'Font4', sans-serif;
+  color: rgb(255, 111, 30);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+.LegalPage__title {
+  font-size: clamp(2.2rem, 8vw, 3.8rem);
+  font-family: 'Font1', sans-serif;
+  font-weight: 500;
+  color: rgb(43, 26, 7);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.LegalPage__meta {
+  font-size: 0.85rem;
+  font-family: 'Font4', sans-serif;
+  color: rgb(43, 26, 7);
+  opacity: 0.5;
+  margin: 0;
+}
+
+/* ── Body ────────────────────────────────────────────────────── */
+.LegalPage__body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.LegalPage__intro {
+  font-size: 1.05rem;
+  font-family: 'Font4', sans-serif;
+  color: rgb(43, 26, 7);
+  line-height: 1.8;
+  margin: 0;
+  opacity: 0.85;
+}
+
+/* ── Sections ────────────────────────────────────────────────── */
+.LegalPage__section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.LegalPage__h2 {
+  font-size: clamp(1.1rem, 3.5vw, 1.35rem);
+  font-family: 'Font1', sans-serif;
+  font-weight: 500;
+  color: rgb(43, 26, 7);
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid rgba(43, 26, 7, 0.15);
+}
+
+.LegalPage__h3 {
+  font-size: 1rem;
+  font-family: 'Font4', sans-serif;
+  font-weight: 700;
+  color: rgb(255, 111, 30);
+  margin: 0;
+}
+
+.LegalPage__section p {
+  font-size: 0.97rem;
+  font-family: 'Font4', sans-serif;
+  color: rgb(43, 26, 7);
+  line-height: 1.8;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.LegalPage__section ul {
+  margin: 0;
+  padding-left: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.LegalPage__section li {
+  font-size: 0.97rem;
+  font-family: 'Font4', sans-serif;
+  color: rgb(43, 26, 7);
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.LegalPage__section strong {
+  color: rgb(43, 26, 7);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.LegalPage__link {
+  color: rgb(255, 111, 30);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.15s ease;
+}
+
+.LegalPage__link:hover {
+  opacity: 0.7;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (min-width: 640px) {
+  .LegalPage__main {
+    padding: 56px 48px 96px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .LegalPage__main {
+    padding: 64px 64px 112px;
+  }
+}
