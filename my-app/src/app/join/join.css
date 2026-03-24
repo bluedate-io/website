@@ -29,7 +29,7 @@
 .JoinPage__title {
   font-size: clamp(2rem, 8vw, 3.2rem);
   font-weight: 500;
-  color: rgb(43, 26, 7);
+  color: var(--text-primary);
   font-family: 'Font1', sans-serif;
   line-height: 1.15;
   margin: 0;
@@ -37,7 +37,7 @@
 
 .JoinPage__body {
   font-size: clamp(1rem, 3.5vw, 1.2rem);
-  color: rgb(43, 26, 7);
+  color: var(--text-primary);
   font-family: 'Font4', sans-serif;
   line-height: 1.7;
   margin: 0;
@@ -46,7 +46,7 @@
 }
 
 .JoinPage__highlight {
-  color: rgb(255, 111, 30);
+  color: var(--accent-orange);
   font-weight: 700;
 }
 
@@ -54,24 +54,24 @@
   display: inline-block;
   font-size: 1.05rem;
   font-family: 'Font1', sans-serif;
-  color: rgb(43, 26, 7);
-  background-color: rgb(253, 251, 249);
-  border: 2.5px solid rgb(43, 26, 7);
+  color: var(--text-primary);
+  background-color: var(--surface);
+  border: 2.5px solid var(--border-strong);
   padding: 0.6rem 2rem;
   border-radius: 1.5rem;
   cursor: pointer;
-  box-shadow: 3px 3px 0px rgb(43, 26, 7);
+  box-shadow: 3px 3px 0px var(--shadow);
   text-decoration: none;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   margin-top: 8px;
 }
 
 .JoinPage__btn:hover {
-  box-shadow: 5px 5px 0px rgb(43, 26, 7);
+  box-shadow: 5px 5px 0px var(--shadow);
   transform: translate(-1px, -1px);
 }
 
 .JoinPage__btn:active {
-  box-shadow: 1px 1px 0px rgb(43, 26, 7);
+  box-shadow: 1px 1px 0px var(--shadow);
   transform: translate(2px, 2px);
 }

@@ -54,7 +54,7 @@
 .hero__one p {
     font-size: 1rem;
     font-weight: 600;
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
     font-family: cursive;
 }
 
@@ -67,7 +67,7 @@
 .hero__two h1 {
     font-size: clamp(2rem, 11vw, 4.2rem);
     font-weight: 500;
-    color: rgb(43, 26, 7);
+    color: var(--text-primary);
     font-family: 'Font1', sans-serif;
     line-height: 1.15;
 }
@@ -80,7 +80,7 @@
 .hero__coffee {
     position: relative;
     display: inline-block;
-    color: rgb(209, 53, 100);
+    color: var(--accent-pink);
     margin: 0 0.3rem;
 }
 
@@ -103,23 +103,23 @@
 .hero__cta-btn {
     font-size: 1.05rem;
     font-family: 'Font1', sans-serif;
-    color: rgb(43, 26, 7);
-    background-color: rgb(253, 251, 249);
-    border: 2.5px solid rgb(43, 26, 7);
+    color: var(--text-primary);
+    background-color: var(--surface);
+    border: 2.5px solid var(--border-strong);
     padding: 0.6rem 1.8rem;
     border-radius: 1.5rem;
     cursor: pointer;
-    box-shadow: 3px 3px 0px rgb(43, 26, 7);
+    box-shadow: 3px 3px 0px var(--shadow);
     transition: transform 0.15s ease;
 }
 
 .hero__cta-btn:hover {
-    box-shadow: 5px 5px 0px rgb(43, 26, 7);
+    box-shadow: 5px 5px 0px var(--shadow);
     transform: translate(-1px, -1px);
 }
 
 .hero__cta-btn:active {
-    box-shadow: 1px 1px 0px rgb(43, 26, 7);
+    box-shadow: 1px 1px 0px var(--shadow);
     transform: translate(2px, 2px);
 }
 
@@ -132,14 +132,14 @@
 
 .hero__three p {
     font-size: clamp(1.6rem, 7vw, 2.8rem);
-    color: rgb(43, 26, 7);
+    color: var(--text-primary);
     font-family: 'Font2', cursive;
     line-height: 1.2;
     margin: 0 auto;
 }
 
 .hero__at {
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
 }
 
 

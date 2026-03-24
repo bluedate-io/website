@@ -16,10 +16,10 @@ const IconProfile = () => (
   <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="hiw__icon-svg">
     <RoughFilter />
     <g filter="url(#rough)">
-      <circle cx="50" cy="34" r="18" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinecap="round" />
-      <path d="M16 85 C16 65 84 65 84 85" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinecap="round" />
-      <path d="M38 34 C38 34 44 44 50 44 C56 44 62 34 62 34" stroke="rgb(255,111,30)" strokeWidth="2.5" strokeLinecap="round" />
-      <path d="M72 20 L76 24 L84 14" stroke="rgb(255,111,30)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="50" cy="34" r="18" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M16 85 C16 65 84 65 84 85" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M38 34 C38 34 44 44 50 44 C56 44 62 34 62 34" stroke="var(--accent-orange)" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M72 20 L76 24 L84 14" stroke="var(--accent-orange)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
     </g>
   </svg>
 )
@@ -28,14 +28,14 @@ const IconCalendar = () => (
   <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="hiw__icon-svg">
     <RoughFilter />
     <g filter="url(#rough)">
-      <rect x="12" y="20" width="76" height="68" rx="8" stroke="rgb(43,26,7)" strokeWidth="3.5" />
-      <path d="M12 38 L88 38" stroke="rgb(43,26,7)" strokeWidth="3" strokeLinecap="round" />
-      <path d="M34 12 L34 28" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinecap="round" />
-      <path d="M66 12 L66 28" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinecap="round" />
-      <rect x="28" y="50" width="14" height="14" rx="3" fill="rgb(255,111,30)" opacity="0.85" />
-      <rect x="50" y="50" width="14" height="14" rx="3" stroke="rgb(43,26,7)" strokeWidth="2.5" />
-      <rect x="28" y="70" width="14" height="10" rx="3" stroke="rgb(43,26,7)" strokeWidth="2.5" />
-      <rect x="50" y="70" width="14" height="10" rx="3" stroke="rgb(43,26,7)" strokeWidth="2.5" />
+      <rect x="12" y="20" width="76" height="68" rx="8" stroke="var(--text-primary)" strokeWidth="3.5" />
+      <path d="M12 38 L88 38" stroke="var(--text-primary)" strokeWidth="3" strokeLinecap="round" />
+      <path d="M34 12 L34 28" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M66 12 L66 28" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinecap="round" />
+      <rect x="28" y="50" width="14" height="14" rx="3" fill="var(--accent-orange)" opacity="0.85" />
+      <rect x="50" y="50" width="14" height="14" rx="3" stroke="var(--text-primary)" strokeWidth="2.5" />
+      <rect x="28" y="70" width="14" height="10" rx="3" stroke="var(--text-primary)" strokeWidth="2.5" />
+      <rect x="50" y="70" width="14" height="10" rx="3" stroke="var(--text-primary)" strokeWidth="2.5" />
     </g>
   </svg>
 )
@@ -44,10 +44,10 @@ const IconChat = () => (
   <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="hiw__icon-svg">
     <RoughFilter />
     <g filter="url(#rough)">
-      <path d="M14 20 C14 14 86 14 86 20 L86 60 C86 66 14 66 14 60 Z" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinejoin="round" />
-      <path d="M30 82 L26 66 L50 72 Z" stroke="rgb(43,26,7)" strokeWidth="3" strokeLinejoin="round" fill="rgb(253,251,249)" />
-      <path d="M30 38 L70 38" stroke="rgb(255,111,30)" strokeWidth="3" strokeLinecap="round" />
-      <path d="M30 50 L55 50" stroke="rgb(43,26,7)" strokeWidth="2.5" strokeLinecap="round" opacity="0.5" />
+      <path d="M14 20 C14 14 86 14 86 20 L86 60 C86 66 14 66 14 60 Z" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinejoin="round" />
+      <path d="M30 82 L26 66 L50 72 Z" stroke="var(--text-primary)" strokeWidth="3" strokeLinejoin="round" fill="var(--surface)" />
+      <path d="M30 38 L70 38" stroke="var(--accent-orange)" strokeWidth="3" strokeLinecap="round" />
+      <path d="M30 50 L55 50" stroke="var(--text-primary)" strokeWidth="2.5" strokeLinecap="round" opacity="0.5" />
     </g>
   </svg>
 )
@@ -56,12 +56,12 @@ const IconCoffee = () => (
   <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="hiw__icon-svg">
     <RoughFilter />
     <g filter="url(#rough)">
-      <path d="M20 38 L24 86 L76 86 L80 38 Z" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinejoin="round" />
-      <path d="M80 46 C90 46 90 62 80 62" stroke="rgb(43,26,7)" strokeWidth="3" strokeLinecap="round" />
-      <path d="M14 38 L86 38" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinecap="round" />
-      <path d="M36 20 C36 14 42 14 42 20 C42 26 48 26 48 20" stroke="rgb(255,111,30)" strokeWidth="2.5" strokeLinecap="round" />
-      <path d="M52 20 C52 14 58 14 58 20 C58 26 64 26 64 20" stroke="rgb(255,111,30)" strokeWidth="2.5" strokeLinecap="round" />
-      <path d="M14 92 L86 92" stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M20 38 L24 86 L76 86 L80 38 Z" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinejoin="round" />
+      <path d="M80 46 C90 46 90 62 80 62" stroke="var(--text-primary)" strokeWidth="3" strokeLinecap="round" />
+      <path d="M14 38 L86 38" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M36 20 C36 14 42 14 42 20 C42 26 48 26 48 20" stroke="var(--accent-orange)" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M52 20 C52 14 58 14 58 20 C58 26 64 26 64 20" stroke="var(--accent-orange)" strokeWidth="2.5" strokeLinecap="round" />
+      <path d="M14 92 L86 92" stroke="var(--text-primary)" strokeWidth="3.5" strokeLinecap="round" />
     </g>
   </svg>
 )
@@ -72,11 +72,11 @@ const IconStar = () => (
     <g filter="url(#rough)">
       <path
         d="M50 10 L60 36 L88 36 L66 54 L74 82 L50 66 L26 82 L34 54 L12 36 L40 36 Z"
-        stroke="rgb(43,26,7)" strokeWidth="3.5" strokeLinejoin="round"
-        fill="rgb(255,111,30)" fillOpacity="0.25"
+        stroke="var(--text-primary)" strokeWidth="3.5" strokeLinejoin="round"
+        fill="var(--accent-orange)" fillOpacity="0.25"
       />
       <path d="M50 28 L54 40 L66 40 L56 48 L60 60 L50 52 L40 60 L44 48 L34 40 L46 40 Z"
-        fill="rgb(255,111,30)" fillOpacity="0.6"
+        fill="var(--accent-orange)" fillOpacity="0.6"
       />
     </g>
   </svg>

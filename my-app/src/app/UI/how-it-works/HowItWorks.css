@@ -15,7 +15,7 @@
 .hiw__label {
     font-family: cursive;
     font-size: 1rem;
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
     margin-bottom: 8px;
 }
 
@@ -23,12 +23,12 @@
     font-family: 'Font1', sans-serif;
     font-size: clamp(2rem, 7vw, 3.2rem);
     font-weight: 500;
-    color: rgb(43, 26, 7);
+    color: var(--text-primary);
     line-height: 1.15;
 }
 
 .hiw__orange {
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
 }
 
 /* ── Grid ────────────────────────────────────────────────────── */
@@ -42,11 +42,11 @@
 
 /* ── Card ────────────────────────────────────────────────────── */
 .hiw__card {
-    background-color: rgb(253, 251, 249);
-    border: 2.5px solid rgb(43, 26, 7);
+    background-color: var(--surface);
+    border: 2.5px solid var(--border-strong);
     border-radius: 20px;
     padding: 24px 24px 28px;
-    box-shadow: 4px 4px 0px rgb(43, 26, 7);
+    box-shadow: 4px 4px 0px var(--shadow);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -56,35 +56,35 @@
 
 .hiw__card:hover {
     transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0px rgb(43, 26, 7);
+    box-shadow: 6px 6px 0px var(--shadow);
 }
 
 /* Accent card */
 .hiw__card--accent {
-    background-color: rgb(43, 26, 7);
-    box-shadow: 4px 4px 0px rgb(255, 111, 30);
+    background-color: var(--surface-accent);
+    box-shadow: 4px 4px 0px var(--accent-orange);
 }
 
 .hiw__card--accent:hover {
-    box-shadow: 6px 6px 0px rgb(255, 111, 30);
+    box-shadow: 6px 6px 0px var(--accent-orange);
 }
 
 .hiw__card--accent .hiw__num {
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
 }
 
 .hiw__card--accent .hiw__card-title {
-    color: rgb(253, 251, 249);
+    color: var(--on-accent);
 }
 
 .hiw__card--accent .hiw__card-desc {
-    color: rgba(253, 251, 249, 0.7);
+    color: var(--on-accent-muted);
 }
 
 .hiw__card--accent .hiw__icon-svg circle,
 .hiw__card--accent .hiw__icon-svg path,
 .hiw__card--accent .hiw__icon-svg rect {
-    stroke: rgb(253, 251, 249);
+    stroke: var(--on-accent);
 }
 
 /* ── Card top row ────────────────────────────────────────────── */
@@ -99,7 +99,7 @@
 .hiw__num {
     font-family: 'Font1', sans-serif;
     font-size: 1rem;
-    color: rgba(43, 26, 7, 0.35);
+    color: var(--text-faint);
     letter-spacing: 0.05em;
 }
 
@@ -114,14 +114,14 @@
     font-family: 'Font1', sans-serif;
     font-size: clamp(1.1rem, 3.5vw, 1.3rem);
     font-weight: 500;
-    color: rgb(43, 26, 7);
+    color: var(--text-primary);
     line-height: 1.25;
     margin: 0;
 }
 
 .hiw__card-desc {
     font-size: clamp(0.85rem, 2.5vw, 0.95rem);
-    color: rgb(100, 80, 60);
+    color: var(--text-muted);
     line-height: 1.6;
     margin: 0;
 }

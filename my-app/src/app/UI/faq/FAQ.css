@@ -16,7 +16,7 @@
   font-family: 'Font1', sans-serif;
   font-size: clamp(1.8rem, 5vw, 2.6rem);
   font-weight: 500;
-  color: rgb(43, 26, 7);
+  color: var(--text-primary);
   text-align: center;
   margin-bottom: 40px;
   line-height: 1.15;
@@ -50,13 +50,13 @@
   font-family: 'Font1', sans-serif;
   font-size: clamp(0.98rem, 2.5vw, 1.1rem);
   font-weight: 500;
-  color: rgb(43, 26, 7);
+  color: var(--text-primary);
   line-height: 1.35;
   transition: color 0.1s ease;
 }
 
 .faq__q--open span {
-  color: rgb(255, 111, 30);
+  color: var(--accent-orange);
 }
 
 /* ── Answer panel ────────────────────────────────────────────── */
@@ -83,7 +83,7 @@
 
 .faq__answer p {
   font-size: clamp(0.88rem, 2.2vw, 0.98rem);
-  color: rgb(100, 80, 60);
+  color: var(--text-muted);
   line-height: 1.7;
   margin: 0;
 }
@@ -91,7 +91,7 @@
 /* ── Dashed divider ─────────────────────────────────────────── */
 .faq__divider {
   width: 100%;
-  border-top: 1.5px dashed rgba(43, 26, 7, 0.2);
+  border-top: 1.5px dashed var(--faq-divider);
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */

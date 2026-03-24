@@ -22,7 +22,7 @@
 .trust__eyebrow {
     font-family: cursive;
     font-size: 1rem;
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
     margin-bottom: 8px;
 }
 
@@ -30,12 +30,12 @@
     font-family: 'Font1', sans-serif;
     font-size: clamp(2rem, 7vw, 3.2rem);
     font-weight: 500;
-    color: rgb(43, 26, 7);
+    color: var(--text-primary);
     line-height: 1.15;
 }
 
 .trust__orange {
-    color: rgb(255, 111, 30);
+    color: var(--accent-orange);
 }
 
 /* ── Cards ───────────────────────────────────────────────────── */
@@ -47,11 +47,11 @@
 
 /* ── Single card ─────────────────────────────────────────────── */
 .trust__card {
-    background-color: rgb(253, 251, 249);
-    border: 2.5px solid rgb(43, 26, 7);
+    background-color: var(--surface);
+    border: 2.5px solid var(--border-strong);
     border-radius: 20px;
     padding: 28px 24px 32px;
-    box-shadow: 4px 4px 0px rgb(43, 26, 7);
+    box-shadow: 4px 4px 0px var(--shadow);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,17 +63,17 @@
 
 .trust__card:hover {
     transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0px rgb(43, 26, 7);
+    box-shadow: 6px 6px 0px var(--shadow);
 }
 
 /* Accent (middle) card */
 .trust__card--accent {
-    background-color: rgb(43, 26, 7);
-    box-shadow: 4px 4px 0px rgb(255, 111, 30);
+    background-color: var(--surface-accent);
+    box-shadow: 4px 4px 0px var(--accent-orange);
 }
 
 .trust__card--accent:hover {
-    box-shadow: 6px 6px 0px rgb(255, 111, 30);
+    box-shadow: 6px 6px 0px var(--accent-orange);
 }
 
 /* ── Illustration wrapper ────────────────────────────────────── */
@@ -99,27 +99,27 @@
 .trust__num {
     font-family: 'Font1', sans-serif;
     font-size: 0.85rem;
-    color: rgba(43, 26, 7, 0.4);
+    color: var(--trust-num-faint);
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin: 0;
 }
 
 .trust__num--light {
-    color: rgba(253, 251, 249, 0.5);
+    color: var(--trust-num-light);
 }
 
 .trust__title {
     font-family: 'Font1', sans-serif;
     font-size: clamp(1.1rem, 4vw, 1.35rem);
     font-weight: 500;
-    color: rgb(43, 26, 7);
+    color: var(--text-primary);
     line-height: 1.3;
     margin: 0;
 }
 
 .trust__title--light {
-    color: rgb(253, 251, 249);
+    color: var(--on-accent);
 }
 
 /* ── Enable GPU layer only on pointer/hover devices ─────────── */
