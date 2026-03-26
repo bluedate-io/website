@@ -6,7 +6,7 @@ import './FAQ.css'
 const faqs = [
   {
     q: 'How does Bluedate match me?',
-    a: 'We use your preferences, vibe, and feedback from past dates to curate one highly compatible match every week — no random profiles.',
+    a: 'We use your preferences, vibe, and feedback from past meets to curate one highly compatible match every week — no random profiles.',
   },
   {
     q: 'Why only one match per week?',
@@ -17,8 +17,8 @@ const faqs = [
     a: 'Your curated match is sent directly to you via WhatsApp, making it simple and personal.',
   },
   {
-    q: 'Is it safe to go on these dates?',
-    a: 'Yes. All dates are designed around verified campus canteens or trusted public cafés, ensuring a safe and comfortable environment.',
+    q: 'Is it safe to go on these meets?',
+    a: 'Yes. All meets are designed around verified campus canteens or trusted public cafés, ensuring a safe and comfortable environment.',
   },
 ]
 

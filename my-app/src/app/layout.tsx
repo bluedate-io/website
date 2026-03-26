@@ -18,17 +18,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
 
   title: {
-    default: "Bluedate — Real Coffee Dates at Your College, No Swiping",
+    default: "Bluedate — Real Coffee Meets at Your College, No Swiping",
     template: "%s | Bluedate",
   },
   description:
-    "Bluedate uses AI to match you with one compatible person on campus every week for a real-life coffee date — no swiping, no ghosting. Dating designed for college students in India.",
+    "Bluedate uses AI to match you with one compatible person on campus every week for a real-life coffee meet — no swiping, no ghosting. Dating designed for college students in India.",
   keywords: [
     "college dating app India",
     "AI dating app",
     "campus dating",
-    "real life dates college",
-    "coffee dates college students",
+    "real life meets college",
+    "coffee meets college students",
     "no swipe dating",
     "bluedate",
     "IIT dating app",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: BASE_URL,
     siteName: "Bluedate",
-    title: "Bluedate — Real Coffee Dates at Your College, No Swiping",
+    title: "Bluedate — Real Coffee Meets at Your College, No Swiping",
     description:
       "AI-powered campus dating. One curated match per week. Meet for a real coffee date — no random swipes, no wasted time.",
     images: [
@@ -71,14 +71,14 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Bluedate — Real dates. Real connections.",
+        alt: "Bluedate — Real meets. Real connections.",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Bluedate — Real Coffee Dates at Your College, No Swiping",
+    title: "Bluedate — Real Coffee Meets at Your College, No Swiping",
     description:
       "AI-powered campus dating. One curated match per week. Meet for a real coffee date — no swipes needed.",
     images: ["/og-image.png"],

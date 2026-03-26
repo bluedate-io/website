@@ -32,7 +32,7 @@ const hero = () => {
                   />
                 </div>
                 <div className="hero__one">
-                    <p>Welcome, The AI era of dating!</p>
+                    <p>Welcome to the AI era of avoiding loneliness</p>
                 </div>
                 <div className="hero__two">
                     <h1>
@@ -64,7 +64,7 @@ const hero = () => {
                                 </defs>
                             </svg>
                         </span>{' '}
-                        Dates
+                        Meets
                     </h1>
                     <h1 className="hero__nowrap">Without Swiping</h1>
                 </div>

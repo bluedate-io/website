@@ -11,7 +11,7 @@ const websiteSchema = {
   name: "Bluedate",
   url: "https://bluedate.io",
   description:
-    "AI-powered campus dating app that matches college students for real-life coffee dates — no swiping required.",
+    "AI-powered campus dating app that matches college students for real-life coffee meets — no swiping required.",
   potentialAction: {
     "@type": "SearchAction",
     target: "https://bluedate.io/?q={search_term_string}",
@@ -27,7 +27,7 @@ const orgSchema = {
   logo: "https://bluedate.io/logo.png",
   sameAs: ["https://www.instagram.com/bluedate.io"],
   description:
-    "Bluedate is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee dates on campus.",
+    "Bluedate is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee meets on campus.",
 };
 
 const faqSchema = {
@@ -39,7 +39,7 @@ const faqSchema = {
       name: "How does Bluedate match me?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We use your preferences, vibe, and feedback from past dates to curate one highly compatible match every week — no random profiles.",
+        text: "We use your preferences, vibe, and feedback from past meets to curate one highly compatible match every week — no random profiles.",
       },
     },
     {
@@ -60,10 +60,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Is it safe to go on these dates?",
+      name: "Is it safe to go on these meets?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. All dates are designed around verified campus canteens or trusted public cafés, ensuring a safe and comfortable environment.",
+        text: "Yes. All meets are designed around verified campus canteens or trusted public cafés, ensuring a safe and comfortable environment.",
       },
     },
   ],

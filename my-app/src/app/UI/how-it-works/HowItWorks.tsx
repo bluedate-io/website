@@ -211,7 +211,7 @@ const steps = [
   },
   {
     num: "04",
-    title: "Go on the Date",
+    title: "Go on the Meet",
     desc: "A curated coffee meet at a verified campus spot.",
     Icon: IconCoffee,
     accent: false,

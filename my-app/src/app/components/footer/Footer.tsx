@@ -9,7 +9,7 @@ const Footer = () => {
       {/* ── Top row: tagline + nav ── */}
       <div className="footer__top">
         <p className="footer__tagline">
-          Real dates.<br />Real connections.
+          Real meets.<br />Real connections.
         </p>
 
         <nav className="footer__nav">

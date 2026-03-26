@@ -205,7 +205,7 @@ const Trust = () => {
               <LockSVG />
             </div>
             <p className="trust__num trust__num--light">Safe #2</p>
-            <h3 className="trust__title trust__title--light">Only your date sees you</h3>
+            <h3 className="trust__title trust__title--light">Only your meet sees you</h3>
           </div>
 
           <div className="trust__card">
@@ -213,7 +213,7 @@ const Trust = () => {
               <CoffeeSVG />
             </div>
             <p className="trust__num">Safe #3</p>
-            <h3 className="trust__title">Coffee dates on campus</h3>
+            <h3 className="trust__title">Coffee meets on campus</h3>
           </div>
 
         </div>

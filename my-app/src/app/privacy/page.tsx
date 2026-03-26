@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
                 <li>Name, email address, phone number (WhatsApp)</li>
                 <li>College / university name, year of study</li>
                 <li>Gender, age, and date of birth</li>
-                <li>Preferences, interests, and date feedback</li>
+                <li>Preferences, interests, and meet feedback</li>
                 <li>Profile photographs (if any)</li>
               </ul>
               <h3 className="LegalPage__h3">b) Data collected automatically</h3>
@@ -97,7 +97,7 @@ export default function PrivacyPolicy() {
               <ul>
                 <li>
                   <strong>Your match:</strong> Only the information necessary to facilitate your
-                  date (e.g., first name, college, contact details) is shared with your weekly
+                  meet (e.g., first name, college, contact details) is shared with your weekly
                   match — and vice versa.
                 </li>
                 <li>
