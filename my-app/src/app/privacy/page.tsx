@@ -5,7 +5,7 @@ import '../legal.css'
 
 export const metadata = {
   title: 'Privacy Policy',
-  description: 'How Bluedate collects, uses, and protects your personal data under Indian law.',
+  description: 'How Tryren collects, uses, and protects your personal data under Indian law.',
 }
 
 export default function PrivacyPolicy() {
@@ -24,10 +24,10 @@ export default function PrivacyPolicy() {
           <div className="LegalPage__body">
 
             <p className="LegalPage__intro">
-              Bluedate (&ldquo;Bluedate&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting the
+              Tryren (&ldquo;Tryren&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting the
               privacy of every user. This Privacy Policy explains how we collect, use, share, and
-              safeguard your personal data when you access our website (<strong>bluedate.io</strong>)
-              and application (<strong>app.bluedate.io</strong>). It is governed by and compliant with
+              safeguard your personal data when you access our website (<strong>tryren.io</strong>)
+              and application (<strong>app.tryren.io</strong>). It is governed by and compliant with
               the <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong>, the
               <strong> Information Technology Act, 2000</strong>, and the <strong>IT (Reasonable
               Security Practices and Procedures and Sensitive Personal Data or Information)
@@ -37,13 +37,13 @@ export default function PrivacyPolicy() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">1. Who We Are</h2>
               <p>
-                Bluedate is the <strong>Data Fiduciary</strong> as defined under the DPDP Act, 2023.
+                Tryren is the <strong>Data Fiduciary</strong> as defined under the DPDP Act, 2023.
                 We determine the purpose and means of processing your personal data.
               </p>
               <ul>
-                <li><strong>Company name:</strong> Bluedate</li>
+                <li><strong>Company name:</strong> Tryren</li>
                 <li><strong>Registered in:</strong> India</li>
-                <li><strong>Contact:</strong> privacy@bluedate.io</li>
+                <li><strong>Contact:</strong> privacy@tryren.io</li>
               </ul>
             </section>
 
@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
                 <li><strong>Right to withdraw consent:</strong> Withdraw consent at any time; withdrawal does not affect lawfulness of prior processing.</li>
               </ul>
               <p>
-                To exercise any of these rights, write to us at <strong>privacy@bluedate.io</strong>.
+                To exercise any of these rights, write to us at <strong>privacy@tryren.io</strong>.
                 We will respond within <strong>30 days</strong>.
               </p>
             </section>
@@ -169,10 +169,10 @@ export default function PrivacyPolicy() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">9. Children&apos;s Privacy</h2>
               <p>
-                Bluedate is intended for users aged <strong>18 years and above</strong>. We do
+                Tryren is intended for users aged <strong>18 years and above</strong>. We do
                 not knowingly collect personal data from anyone under 18. If we become aware that
                 a minor has provided us with data, we will delete it immediately. Parents or
-                guardians may contact us at privacy@bluedate.io.
+                guardians may contact us at privacy@tryren.io.
               </p>
             </section>
 
@@ -184,8 +184,8 @@ export default function PrivacyPolicy() {
                 Grievance Officer:
               </p>
               <ul>
-                <li><strong>Name:</strong> Grievance Officer, Bluedate</li>
-                <li><strong>Email:</strong> grievance@bluedate.io</li>
+                <li><strong>Name:</strong> Grievance Officer, Tryren</li>
+                <li><strong>Email:</strong> grievance@tryren.io</li>
                 <li><strong>Response time:</strong> Within 15 days of receipt of complaint</li>
               </ul>
             </section>

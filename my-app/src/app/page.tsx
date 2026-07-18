@@ -8,13 +8,13 @@ import Footer from "./components/footer/Footer";
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Bluedate",
-  url: "https://bluedate.io",
+  name: "Tryren",
+  url: "https://tryren.io",
   description:
     "AI-powered campus dating app that matches college students for real-life coffee meets — no swiping required.",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://bluedate.io/?q={search_term_string}",
+    target: "https://tryren.io/?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -22,12 +22,12 @@ const websiteSchema = {
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Bluedate",
-  url: "https://bluedate.io",
-  logo: "https://bluedate.io/logo.png",
-  sameAs: ["https://www.instagram.com/bluedate.io"],
+  name: "Tryren",
+  url: "https://tryren.io",
+  logo: "https://tryren.io/logo.png",
+  sameAs: ["https://www.instagram.com/tryren.io"],
   description:
-    "Bluedate is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee meets on campus.",
+    "Tryren is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee meets on campus.",
 };
 
 const faqSchema = {
@@ -36,7 +36,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How does Bluedate match me?",
+      name: "How does Tryren match me?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "We use your preferences, vibe, and feedback from past meets to curate one highly compatible match every week — no random profiles.",

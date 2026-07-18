@@ -9,7 +9,7 @@ export default function JoinPage() {
       <Navbar />
       <div className="JoinPage__in">
         <div className="JoinPage__icon">
-          <Image src="/logo.png" alt="Bluedate" width={64} height={64} />
+          <Image src="/logo.png" alt="Tryren" width={64} height={64} />
         </div>
         <h1 className="JoinPage__title">Your privacy is our promise.</h1>
         <p className="JoinPage__body">
@@ -17,7 +17,7 @@ export default function JoinPage() {
           Everything you share stays strictly between you and your match — no one else sees it.
         </p>
         <a
-          href="https://app.bluedate.io"
+          href="https://app.tryren.io"
           className="JoinPage__btn"
           rel="noopener noreferrer"
         >

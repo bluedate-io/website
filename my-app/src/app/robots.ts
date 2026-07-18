@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://bluedate.io/sitemap.xml",
+    sitemap: "https://tryren.io/sitemap.xml",
   };
 }

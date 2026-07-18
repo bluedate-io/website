@@ -190,7 +190,7 @@ const IconStar = () => (
 const steps = [
   {
     num: "01",
-    title: "Tell Bluedate Your Type",
+    title: "Tell Tryren Your Type",
     desc: "Share your vibe, interests, and what you're looking for. Not just looks — real compatibility.",
     Icon: IconProfile,
     accent: false,

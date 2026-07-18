@@ -14,7 +14,7 @@ const navbar = () => {
                 </div>
 
                 <div className="navbar__name">
-                    <h1>BlueDate</h1>
+                    <h1>Tryren</h1>
                 </div>
                 
                 <div className="navbar__one">

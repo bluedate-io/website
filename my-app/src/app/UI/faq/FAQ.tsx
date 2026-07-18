@@ -5,7 +5,7 @@ import './FAQ.css'
 
 const faqs = [
   {
-    q: 'How does Bluedate match me?',
+    q: 'How does Tryren match me?',
     a: 'We use your preferences, vibe, and feedback from past meets to curate one highly compatible match every week — no random profiles.',
   },
   {

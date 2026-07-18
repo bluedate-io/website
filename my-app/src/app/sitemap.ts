@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://bluedate.io";
+const BASE_URL = "https://tryren.io";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

@@ -5,7 +5,7 @@ import '../legal.css'
 
 export const metadata = {
   title: 'Terms & Conditions',
-  description: 'Terms and conditions governing your use of Bluedate under Indian law.',
+  description: 'Terms and conditions governing your use of Tryren under Indian law.',
 }
 
 export default function TermsAndConditions() {
@@ -25,8 +25,8 @@ export default function TermsAndConditions() {
 
             <p className="LegalPage__intro">
               Please read these Terms &amp; Conditions (&ldquo;Terms&rdquo;) carefully before using
-              Bluedate&rsquo;s website (<strong>bluedate.io</strong>) or application
-              (<strong>app.bluedate.io</strong>). By accessing or using the platform, you agree
+              Tryren&rsquo;s website (<strong>tryren.io</strong>) or application
+              (<strong>app.tryren.io</strong>). By accessing or using the platform, you agree
               to be bound by these Terms and our Privacy Policy. These Terms constitute a legally
               binding agreement under the <strong>Indian Contract Act, 1872</strong>.
             </p>
@@ -34,7 +34,7 @@ export default function TermsAndConditions() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">1. Acceptance of Terms</h2>
               <p>
-                By creating an account or using any part of the Bluedate platform, you confirm
+                By creating an account or using any part of the Tryren platform, you confirm
                 that you have read, understood, and agree to these Terms. If you do not agree,
                 you must not use the platform. Your continued use after any update to these Terms
                 constitutes acceptance of the revised Terms.
@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
 
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">2. Eligibility</h2>
-              <p>To use Bluedate, you must:</p>
+              <p>To use Tryren, you must:</p>
               <ul>
                 <li>Be at least <strong>18 years of age</strong>;</li>
                 <li>Be a currently enrolled student at a recognised college or university in India;</li>
@@ -51,7 +51,7 @@ export default function TermsAndConditions() {
                 <li>Not have been previously removed from the platform for violating these Terms.</li>
               </ul>
               <p>
-                By using Bluedate, you represent and warrant that you meet all of the above
+                By using Tryren, you represent and warrant that you meet all of the above
                 eligibility requirements.
               </p>
             </section>
@@ -62,7 +62,7 @@ export default function TermsAndConditions() {
                 You must provide accurate, complete, and current information during registration.
                 You are responsible for maintaining the confidentiality of your account credentials
                 and for all activities that occur under your account. You agree to notify us
-                immediately at <strong>support@bluedate.io</strong> of any unauthorised use of
+                immediately at <strong>support@tryren.io</strong> of any unauthorised use of
                 your account.
               </p>
               <p>
@@ -72,9 +72,9 @@ export default function TermsAndConditions() {
             </section>
 
             <section className="LegalPage__section">
-              <h2 className="LegalPage__h2">4. The Bluedate Service</h2>
+              <h2 className="LegalPage__h2">4. The Tryren Service</h2>
               <p>
-                Bluedate is an AI-powered matchmaking platform that curates one compatible match
+                Tryren is an AI-powered matchmaking platform that curates one compatible match
                 per week for college students and facilitates real-life coffee meets on campus.
                 Match details are delivered via WhatsApp.
               </p>
@@ -109,7 +109,7 @@ export default function TermsAndConditions() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">6. Safety</h2>
               <p>
-                All meets facilitated by Bluedate are designed to take place in verified campus
+                All meets facilitated by Tryren are designed to take place in verified campus
                 canteens or trusted public cafés. However, your personal safety is your own
                 responsibility. We strongly recommend:
               </p>
@@ -119,7 +119,7 @@ export default function TermsAndConditions() {
                 <li>Contacting emergency services (112) if you feel unsafe.</li>
               </ul>
               <p>
-                Bluedate is not liable for any harm, injury, or loss that occurs during or after
+                Tryren is not liable for any harm, injury, or loss that occurs during or after
                 a meet arranged through the platform.
               </p>
             </section>
@@ -127,9 +127,9 @@ export default function TermsAndConditions() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">7. Intellectual Property</h2>
               <p>
-                All content on the Bluedate platform — including but not limited to text,
+                All content on the Tryren platform — including but not limited to text,
                 graphics, logos, icons, software, and AI models — is the exclusive property of
-                Bluedate and is protected under the <strong>Copyright Act, 1957</strong> and
+                Tryren and is protected under the <strong>Copyright Act, 1957</strong> and
                 the <strong>Trade Marks Act, 1999</strong>. You may not reproduce, distribute,
                 or create derivative works without our prior written consent.
               </p>
@@ -138,7 +138,7 @@ export default function TermsAndConditions() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">8. Privacy</h2>
               <p>
-                Your use of Bluedate is also governed by our{' '}
+                Your use of Tryren is also governed by our{' '}
                 <a href="/privacy" className="LegalPage__link">Privacy Policy</a>,
                 which is incorporated into these Terms by reference. By using the platform, you
                 consent to the collection and use of your data as described therein.
@@ -149,7 +149,7 @@ export default function TermsAndConditions() {
               <h2 className="LegalPage__h2">9. Disclaimer of Warranties</h2>
               <p>
                 The platform is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo;
-                basis. To the fullest extent permitted by Indian law, Bluedate disclaims all
+                basis. To the fullest extent permitted by Indian law, Tryren disclaims all
                 warranties, express or implied, including fitness for a particular purpose and
                 non-infringement. We do not warrant that the platform will be uninterrupted,
                 error-free, or free of viruses or other harmful components.
@@ -159,7 +159,7 @@ export default function TermsAndConditions() {
             <section className="LegalPage__section">
               <h2 className="LegalPage__h2">10. Limitation of Liability</h2>
               <p>
-                To the maximum extent permitted by applicable Indian law, Bluedate and its
+                To the maximum extent permitted by applicable Indian law, Tryren and its
                 officers, directors, employees, and agents shall not be liable for any indirect,
                 incidental, special, consequential, or punitive damages arising out of your use
                 of or inability to use the platform, including but not limited to loss of data,
@@ -173,7 +173,7 @@ export default function TermsAndConditions() {
                 We reserve the right to suspend or terminate your account at any time, with or
                 without notice, for any violation of these Terms or for any conduct we deem
                 harmful to other users or the platform. You may also delete your account at any
-                time by contacting us at <strong>support@bluedate.io</strong>.
+                time by contacting us at <strong>support@tryren.io</strong>.
               </p>
             </section>
 
@@ -199,7 +199,7 @@ export default function TermsAndConditions() {
                 Nothing in these Terms limits your statutory rights as a consumer under the
                 <strong> Consumer Protection Act, 2019</strong>. If you have a complaint about
                 our service, you may raise it with our Grievance Officer at
-                <strong> grievance@bluedate.io</strong> or approach the appropriate Consumer
+                <strong> grievance@tryren.io</strong> or approach the appropriate Consumer
                 Disputes Redressal Commission.
               </p>
             </section>
@@ -220,8 +220,8 @@ export default function TermsAndConditions() {
                 For any questions regarding these Terms, please contact:
               </p>
               <ul>
-                <li><strong>Email:</strong> support@bluedate.io</li>
-                <li><strong>Grievance Officer:</strong> grievance@bluedate.io</li>
+                <li><strong>Email:</strong> support@tryren.io</li>
+                <li><strong>Grievance Officer:</strong> grievance@tryren.io</li>
               </ul>
             </section>
 

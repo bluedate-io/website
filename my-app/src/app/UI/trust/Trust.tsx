@@ -36,7 +36,7 @@ const BadgeSVG = () => (
         fill="var(--text-primary)"
         fontFamily="Arial, sans-serif"
         letterSpacing="4"
-      >· BLUEDATE.IO ·</text>
+      >· TRYREN.IO ·</text>
 
       {/* shield */}
       <path

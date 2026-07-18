@@ -118,7 +118,7 @@
 
 /* ── Specular sweep line (thin bright streak across top of letters) ── */
 .footer__wordmark::after {
-    content: 'bluedate';
+    content: 'tryren';
     position: absolute;
     inset: 0;
     font-family: inherit;

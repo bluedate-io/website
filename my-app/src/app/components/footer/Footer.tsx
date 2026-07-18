@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="#" className="footer__link">Our Story</a>
             <a href="#" className="footer__link">Write to us</a>
             <a
-              href="https://www.instagram.com/bluedate.io/"
+              href="https://www.instagram.com/tryren.io/"
               className="footer__link"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,11 +45,11 @@ const Footer = () => {
       </svg>
 
       {/* ── Full-bleed wordmark ── */}
-      <div className="footer__wordmark" aria-hidden="true">bluedate</div>
+      <div className="footer__wordmark" aria-hidden="true">tryren</div>
 
       {/* ── Bottom bar: overlaid on wordmark ── */}
       <div className="footer__bottom">
-        <span className="footer__legal">Bluedate</span>
+        <span className="footer__legal">Tryren</span>
         <span className="footer__credit">Designed and built in India</span>
       </div>
 
