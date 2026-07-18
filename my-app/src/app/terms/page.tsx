@@ -26,7 +26,7 @@ export default function TermsAndConditions() {
             <p className="LegalPage__intro">
               Please read these Terms &amp; Conditions (&ldquo;Terms&rdquo;) carefully before using
               Tryren&rsquo;s website (<strong>tryren.io</strong>) or application
-              (<strong>app.tryren.io</strong>). By accessing or using the platform, you agree
+              (<strong>app.tryren.in</strong>). By accessing or using the platform, you agree
               to be bound by these Terms and our Privacy Policy. These Terms constitute a legally
               binding agreement under the <strong>Indian Contract Act, 1872</strong>.
             </p>

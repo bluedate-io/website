@@ -17,7 +17,7 @@ export default function JoinPage() {
           Everything you share stays strictly between you and your match — no one else sees it.
         </p>
         <a
-          href="https://app.tryren.io"
+          href="https://app.tryren.in"
           className="JoinPage__btn"
           rel="noopener noreferrer"
         >

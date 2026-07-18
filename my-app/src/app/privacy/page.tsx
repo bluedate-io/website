@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
               Tryren (&ldquo;Tryren&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting the
               privacy of every user. This Privacy Policy explains how we collect, use, share, and
               safeguard your personal data when you access our website (<strong>tryren.io</strong>)
-              and application (<strong>app.tryren.io</strong>). It is governed by and compliant with
+              and application (<strong>app.tryren.in</strong>). It is governed by and compliant with
               the <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong>, the
               <strong> Information Technology Act, 2000</strong>, and the <strong>IT (Reasonable
               Security Practices and Procedures and Sensitive Personal Data or Information)
