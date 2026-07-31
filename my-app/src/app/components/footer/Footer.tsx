@@ -26,8 +26,9 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer__nav-col">
-            <Link href="/privacy" className="footer__link">Privacy Policy</Link>
-            <Link href="/terms" className="footer__link">Terms &amp; Conditions</Link>
+            <Link href="/privacy-policy" className="footer__link">Privacy Policy</Link>
+            <Link href="/terms-and-conditions" className="footer__link">Terms &amp; Conditions</Link>
+            <Link href="/cancellation-and-refund-policy" className="footer__link">Cancellation &amp; Refunds</Link>
           </div>
         </nav>
       </div>

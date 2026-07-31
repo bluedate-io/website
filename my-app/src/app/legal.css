@@ -69,6 +69,12 @@
   gap: 40px;
 }
 
+.LegalPage__body > section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .LegalPage__intro {
   font-size: 1.05rem;
   font-family: 'Font4', sans-serif;
@@ -103,7 +109,8 @@
   margin: 0;
 }
 
-.LegalPage__section p {
+.LegalPage__section p,
+.LegalPage__body > section p {
   font-size: 0.97rem;
   font-family: 'Font4', sans-serif;
   color: var(--text-primary);
@@ -112,7 +119,8 @@
   opacity: 0.85;
 }
 
-.LegalPage__section ul {
+.LegalPage__section ul,
+.LegalPage__body > section ul {
   margin: 0;
   padding-left: 1.4rem;
   display: flex;
@@ -120,7 +128,8 @@
   gap: 8px;
 }
 
-.LegalPage__section li {
+.LegalPage__section li,
+.LegalPage__body > section li {
   font-size: 0.97rem;
   font-family: 'Font4', sans-serif;
   color: var(--text-primary);
@@ -128,7 +137,8 @@
   opacity: 0.85;
 }
 
-.LegalPage__section strong {
+.LegalPage__section strong,
+.LegalPage__body > section strong {
   color: var(--text-primary);
   opacity: 1;
   font-weight: 700;
@@ -143,6 +153,33 @@
 
 .LegalPage__link:hover {
   opacity: 0.7;
+}
+
+.LegalPage__body > section h2 {
+  font-size: clamp(1.1rem, 3.5vw, 1.35rem);
+  font-family: 'Font1', sans-serif;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid var(--legal-h2-border);
+}
+
+.LegalPage__body a,
+.LegalPage__policies a {
+  color: var(--accent-orange);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.LegalPage__policies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding-top: 24px;
+  border-top: 1.5px solid var(--border-strong);
+  font-family: 'Font4', sans-serif;
+  font-size: 0.9rem;
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */
