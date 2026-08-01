@@ -16,15 +16,17 @@ export default function TermsPage() {
       <section>
         <h2>1. About Tryren</h2>
         <p>
-          Tryren (&quot;Tryren&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) provides a digital platform where eligible
+          Tryren (&quot;Tryren&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) is operated in India by Alla Naveen and provides a digital platform where eligible
           adults can create profiles, opt in to weekly matchmaking and, when matched, connect
           with another user. Tryren does not sell physical goods and does not provide escort,
           sexual or adult entertainment services.
         </p>
         <p>
-          You can contact us at <a href="mailto:admin@tryren.in">admin@tryren.in</a>. These terms,
+          Our business address is D. No. 32-9-2/1, Dasari Lingiah Street, Madhu Gardens,
+          Vijayawada, Andhra Pradesh 520010, India. You can contact us through our <a href="/contact-us">Contact Us page</a>. These terms,
           our <a href="/privacy-policy">Privacy Policy</a> and our{" "}
-          <a href="/cancellation-and-refund-policy">Cancellation &amp; Refund Policy</a> form the
+          <a href="/cancellation-and-refund-policy">Cancellation &amp; Refund Policy</a> and{" "}
+          <a href="/shipping-and-delivery-policy">Shipping &amp; Delivery Policy</a> form the
           agreement between you and Tryren.
         </p>
       </section>
@@ -80,7 +82,7 @@ export default function TermsPage() {
           Basic access is free. VIP access is currently offered at ₹99 for the access period shown
           before payment and includes the features displayed on the Membership &amp; Plans page. Prices
           are in Indian rupees and include applicable taxes unless stated otherwise. Any price or
-          billing frequency will be clearly presented before you authorise payment.
+          billing frequency and applicable taxes will be clearly presented before you authorise payment.
         </p>
         <p>
           Payments are processed through Razorpay or another disclosed payment provider. We do not

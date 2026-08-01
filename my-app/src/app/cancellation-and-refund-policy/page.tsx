@@ -17,7 +17,7 @@ export default function CancellationPolicyPage() {
         <h2>1. Digital service and pricing</h2>
         <p>
           Tryren provides a digital matchmaking service; no physical product is shipped. VIP access is
-          currently displayed at ₹99 for the access period shown on the Membership &amp; Plans page and at
+          currently displayed at ₹99 for the access period shown on the Membership &amp; Plans page in the app and at
           checkout. The final amount and billing arrangement are shown before you authorise payment.
         </p>
       </section>
@@ -79,7 +79,8 @@ export default function CancellationPolicyPage() {
           bank or payment provider may take a further five to seven business days to reflect it. We cannot
           send a refund to a different account. If money is debited for a failed or pending transaction,
           Razorpay or your bank will usually reverse it automatically within five to seven business days.
-          Contact us if it has not been reversed after seven business days.
+          Contact us if it has not been reversed after seven business days. We will acknowledge a complete
+          complaint within five business days.
         </p>
       </section>
 
@@ -88,7 +89,8 @@ export default function CancellationPolicyPage() {
         <p>
           Please contact us first so we can investigate promptly. This does not restrict your right to
           contact your bank or payment provider. Questions about cancellations or refunds can be sent to
-          <a href="mailto:admin@tryren.in"> admin@tryren.in</a>.
+          <a href="mailto:admin@tryren.in"> admin@tryren.in</a>, by phone at{" "}
+          <a href="tel:+918309671828">+91 83096 71828</a>, or through our <a href="/contact-us">Contact Us page</a>.
         </p>
       </section>
     </LegalPage>

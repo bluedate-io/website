@@ -11,10 +11,11 @@ export default function JoinPage() {
         <div className="JoinPage__icon">
           <Image src="/logo.png" alt="Tryren" width={64} height={64} />
         </div>
-        <h1 className="JoinPage__title">Your privacy is our promise.</h1>
+        <h1 className="JoinPage__title">Your privacy matters.</h1>
         <p className="JoinPage__body">
-          Your data is <span className="JoinPage__highlight">100% protected</span> and never publicly available.
-          Everything you share stays strictly between you and your match — no one else sees it.
+          We use reasonable safeguards to protect your data and do not make your profile publicly searchable.
+          Your profile is shared only as described in our privacy policy, including with a selected match and
+          service providers that help us operate Tryren.
         </p>
         <a
           href="https://app.tryren.in"

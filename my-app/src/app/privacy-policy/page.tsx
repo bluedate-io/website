@@ -17,9 +17,9 @@ export default function PrivacyPolicyPage() {
         <h2>1. Scope and contact</h2>
         <p>
           This policy applies to the Tryren website, application, WhatsApp onboarding and related
-          matchmaking, support and payment services. Tryren is responsible for the personal data it
-          processes for these services. Privacy requests and grievances can be sent to the Grievance
-          Officer at <a href="mailto:admin@tryren.in">admin@tryren.in</a>.
+          matchmaking, support and payment services. Tryren is operated by Alla Naveen, who is
+          responsible for the personal data processed for these services. Our address is D. No.
+          32-9-2/1, Dasari Lingiah Street, Madhu Gardens, Vijayawada, Andhra Pradesh 520010, India.
         </p>
       </section>
 
@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
         <h2>4. When we share data</h2>
         <ul>
           <li>With a selected match: profile information and, after a match is confirmed, the contact details needed for you to connect. We do not make your profile publicly searchable on the open web.</li>
-          <li>With processors: hosting and storage providers, Razorpay, email and WhatsApp/SMS providers, analytics, error monitoring and customer-support providers, only as needed to perform services for us.</li>
+          <li>With processors: hosting and storage providers, Razorpay, email and WhatsApp/SMS providers, analytics, error monitoring and customer-support providers, only as needed to perform services for us. This includes sharing the information required to process a payment, prevent fraud, resolve disputes and comply with payment-network or legal requirements.</li>
           <li>For legal and safety reasons: regulators, courts, law enforcement or advisers where required by law or reasonably necessary to protect rights, users and the public.</li>
           <li>For a business transfer: a successor in a merger, financing, reorganisation or sale, subject to appropriate confidentiality and notice requirements.</li>
         </ul>
@@ -107,7 +107,19 @@ export default function PrivacyPolicyPage() {
       </section>
 
       <section>
-        <h2>9. Adults only and policy updates</h2>
+        <h2>9. Grievance redressal</h2>
+        <p>
+          Alla Naveen is Tryren&apos;s Grievance Officer. To report a privacy, payment, safety or service
+          concern, email <a href="mailto:admin@tryren.in">admin@tryren.in</a>, call{" "}
+          <a href="tel:+918309671828">+91 83096 71828</a>, or use the details on our{" "}
+          <a href="/contact-us">Contact Us page</a>. We acknowledge complaints and provide an initial
+          response within five business days. Resolution time may vary where investigation or third-party
+          information is required.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Adults only and policy updates</h2>
         <p>
           Tryren is only for people aged 18 or older. We do not knowingly collect data from children.
           If you believe a child has provided data, contact us for removal. We may update this policy

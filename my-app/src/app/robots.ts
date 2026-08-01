@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tryren.io/sitemap.xml",
+    sitemap: "https://tryren.in/sitemap.xml",
   };
 }

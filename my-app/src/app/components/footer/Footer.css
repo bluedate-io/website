@@ -157,6 +157,10 @@
     white-space: nowrap;
 }
 
+.footer__legal {
+    white-space: normal;
+}
+
 /* ── Disable expensive filter on mobile (no hover, save GPU) ── */
 @media (hover: none) {
     .footer__wordmark {

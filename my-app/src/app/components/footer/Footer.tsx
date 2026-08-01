@@ -14,8 +14,8 @@ const Footer = () => {
 
         <nav className="footer__nav">
           <div className="footer__nav-col">
-            <a href="#" className="footer__link">Our Story</a>
-            <a href="#" className="footer__link">Write to us</a>
+            <Link href="/" className="footer__link">About Tryren</Link>
+            <Link href="/contact-us" className="footer__link">Contact Us</Link>
             <a
               href="https://www.instagram.com/tryren.io/"
               className="footer__link"
@@ -29,6 +29,7 @@ const Footer = () => {
             <Link href="/privacy-policy" className="footer__link">Privacy Policy</Link>
             <Link href="/terms-and-conditions" className="footer__link">Terms &amp; Conditions</Link>
             <Link href="/cancellation-and-refund-policy" className="footer__link">Cancellation &amp; Refunds</Link>
+            <Link href="/shipping-and-delivery-policy" className="footer__link">Shipping &amp; Delivery</Link>
           </div>
         </nav>
       </div>
@@ -50,7 +51,7 @@ const Footer = () => {
 
       {/* ── Bottom bar: overlaid on wordmark ── */}
       <div className="footer__bottom">
-        <span className="footer__legal">Tryren</span>
+        <span className="footer__legal">Tryren, operated by Alla Naveen</span>
         <span className="footer__credit">Designed and built in India</span>
       </div>
 

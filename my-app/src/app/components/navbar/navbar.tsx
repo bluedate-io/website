@@ -18,7 +18,7 @@ const navbar = () => {
                 </div>
                 
                 <div className="navbar__one">
-                    <p>100% verified profiles & curated college meet spots.</p>
+                    <p>College-verified profiles &amp; curated meet spots.</p>
                 </div>
                 <div className="navbar__two">
                     <Link href="/join"><button>Get Started</button></Link>

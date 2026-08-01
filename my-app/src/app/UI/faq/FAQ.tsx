@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: 'Is it safe to go on these meets?',
-    a: 'Yes. All meets are designed around verified campus canteens or trusted public cafés, ensuring a safe and comfortable environment.',
+    a: 'Meets are designed around campus canteens or public cafés. Always use your own judgment, tell someone you trust where you are going, and leave if you feel unsafe.',
   },
 ]
 

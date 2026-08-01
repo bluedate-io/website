@@ -22,7 +22,7 @@ export default function LegalPage({
             <h1 className="LegalPage__title">{title}</h1>
             <p className="LegalPage__intro">{summary}</p>
             <p className="LegalPage__meta">
-              Effective 31 July 2026 &middot; Last updated 31 July 2026
+              Effective 1 August 2026 &middot; Last updated 1 August 2026
             </p>
           </header>
 
@@ -32,6 +32,8 @@ export default function LegalPage({
             <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/cancellation-and-refund-policy">Cancellation &amp; Refunds</Link>
+            <Link href="/shipping-and-delivery-policy">Shipping &amp; Delivery</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </nav>
         </div>
       </main>

@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = "https://tryren.io";
+const BASE_URL = "https://tryren.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

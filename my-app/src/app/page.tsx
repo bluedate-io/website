@@ -9,12 +9,12 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Tryren",
-  url: "https://tryren.io",
+  url: "https://tryren.in",
   description:
     "AI-powered campus dating app that matches college students for real-life coffee meets — no swiping required.",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://tryren.io/?q={search_term_string}",
+    target: "https://tryren.in/?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -23,8 +23,27 @@ const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Tryren",
-  url: "https://tryren.io",
-  logo: "https://tryren.io/logo.png",
+  url: "https://tryren.in",
+  logo: "https://tryren.in/logo.png",
+  founder: {
+    "@type": "Person",
+    name: "Alla Naveen",
+  },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "D. No. 32-9-2/1, Dasari Lingiah Street, Madhu Gardens",
+    addressLocality: "Vijayawada",
+    addressRegion: "Andhra Pradesh",
+    postalCode: "520010",
+    addressCountry: "IN",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+91-83096-71828",
+    email: "admin@tryren.in",
+    contactType: "customer support",
+    availableLanguage: ["English"],
+  },
   sameAs: ["https://www.instagram.com/tryren.io"],
   description:
     "Tryren is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee meets on campus.",
