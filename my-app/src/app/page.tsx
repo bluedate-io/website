@@ -44,7 +44,7 @@ const orgSchema = {
     contactType: "customer support",
     availableLanguage: ["English"],
   },
-  sameAs: ["https://www.instagram.com/tryren.io"],
+  sameAs: ["https://www.instagram.com/tryren.in"],
   description:
     "Tryren is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee meets on campus.",
 };

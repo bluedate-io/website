@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     description:
       "AI-powered campus dating. One curated match per week. Meet for a real coffee date — no swipes needed.",
     images: ["/og-image.png"],
-    creator: "@tryren_io",
+    creator: "@tryren_in",
   },
 
   icons: {

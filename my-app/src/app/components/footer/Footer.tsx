@@ -14,10 +14,10 @@ const Footer = () => {
 
         <nav className="footer__nav">
           <div className="footer__nav-col">
-            <Link href="/" className="footer__link">About Tryren</Link>
+            <Link href="/about" className="footer__link">About Tryren</Link>
             <Link href="/contact-us" className="footer__link">Contact Us</Link>
             <a
-              href="https://www.instagram.com/tryren.io/"
+              href="https://www.instagram.com/tryren.in/"
               className="footer__link"
               target="_blank"
               rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Footer = () => {
 
       {/* ── Bottom bar: overlaid on wordmark ── */}
       <div className="footer__bottom">
-        <span className="footer__legal">Tryren, operated by Alla Naveen</span>
+        <span className="footer__legal">Tryren</span>
         <span className="footer__credit">Designed and built in India</span>
       </div>
 
