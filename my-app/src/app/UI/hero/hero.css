@@ -155,7 +155,7 @@
 
 .hero__score-chip-frame .hero__score-word {
     font-family: 'Font1', sans-serif;
-    font-size: 0.72em;
+    font-size: 0.9em;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     color: var(--text-muted);
