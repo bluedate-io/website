@@ -29,7 +29,10 @@ const FAQ = () => {
     <section className="faq">
       <div className="faq__inner">
 
-        <h2 className="faq__heading">Questions you might have</h2>
+        <header className="faq__head">
+          <p className="faq__eyebrow">Questions</p>
+          <h2 className="faq__heading">Answers,<br />before you even ask.</h2>
+        </header>
 
         <ul className="faq__list">
           {faqs.map((item, i) => (
@@ -40,6 +43,20 @@ const FAQ = () => {
                 aria-expanded={open === i}
               >
                 <span>{item.q}</span>
+                <svg
+                  className="faq__chevron"
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
               </button>
 
               <div className={`faq__answer-wrapper${open === i ? ' open' : ''}`}>
