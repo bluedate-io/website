@@ -95,6 +95,103 @@
     overflow: visible;
 }
 
+/* Steps scoreboard */
+.hero__score {
+    --hero-score-row-h: clamp(44px, 9vw, 62px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 2px 12px;
+}
+
+.hero__score-chip-frame {
+    position: relative;
+    height: var(--hero-score-row-h);
+    width: max-content;
+    min-width: clamp(96px, 20vw, 160px);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 14px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 16px;
+}
+
+.hero__score-chip-frame .hero__score-word {
+    align-self: center;
+}
+
+.hero__score-chip-frame > .hero__score-track {
+    align-self: flex-start;
+}
+
+.hero__score-track {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    will-change: transform;
+}
+
+.hero__score-track > div {
+    height: var(--hero-score-row-h);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__score-num {
+    font-family: 'Font4', monospace;
+    font-size: clamp(0.95rem, 2.6vw, 1.2rem);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent-orange);
+    white-space: nowrap;
+}
+
+.hero__score-chip-frame .hero__score-word {
+    font-family: 'Font1', sans-serif;
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.hero__score-pill {
+    position: relative;
+    box-sizing: content-box;
+    height: var(--hero-score-row-h);
+    width: max-content;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    border: 1.5px solid var(--border-strong);
+    border-radius: 999px;
+    background-color: transparent;
+    padding: 0 clamp(18px, 5vw, 34px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__score-pill .hero__score-track {
+    transform-origin: top;
+    align-self: flex-start;
+}
+
+.hero__score-text {
+    position: relative;
+    font-family: 'Font1', sans-serif;
+    font-size: clamp(1rem, 4.4vw, 1.5rem);
+    white-space: nowrap;
+    color: var(--text-primary);
+}
+
 /* CTA Button */
 .hero__cta {
     margin-top: 8px;
@@ -103,19 +200,18 @@
 .hero__cta-btn {
     font-size: 1.05rem;
     font-family: 'Font1', sans-serif;
-    color: var(--text-primary);
-    background-color: var(--surface);
+    color: #ffffff;
+    background-color: var(--accent-orange);
     border: 2.5px solid var(--border-strong);
     padding: 0.6rem 1.8rem;
     border-radius: 1.5rem;
     cursor: pointer;
     box-shadow: 3px 3px 0px var(--shadow);
-    transition: transform 0.15s ease;
+    transition: transform 0.15s ease, background-color 0.15s ease;
 }
 
 .hero__cta-btn:hover {
-    box-shadow: 5px 5px 0px var(--shadow);
-    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0px var(--shadow);
 }
 
 .hero__cta-btn:active {
@@ -228,6 +324,20 @@
 
 /* ── Laptops  (≥ 1024px) ─────────────────────────────────────── */
 @media (min-width: 1024px) {
+    .hero__score {
+        gap: 24px;
+    }
+
+    .hero__score-chip-frame {
+        min-width: 0;
+        width: auto;
+        padding: 0;
+    }
+
+    .hero__score-pill {
+        padding: 0 clamp(18px, 5vw, 34px);
+    }
+
     .HeroComponent__in {
         min-height: 82svh;
         gap: 14px;

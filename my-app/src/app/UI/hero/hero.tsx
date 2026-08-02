@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import HeroSteps from './HeroSteps'
 import "./hero.css"
 
 const heroSizes =
@@ -71,6 +72,7 @@ const hero = () => {
                 <div className="hero__three">
                     <p><span className="hero__at">@</span>your college</p>
                 </div>
+                <HeroSteps />
                 <div className="hero__cta">
                     <Link href="/join"><button className="hero__cta-btn">Join Now</button></Link>
                 </div>
