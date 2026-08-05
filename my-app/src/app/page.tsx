@@ -11,7 +11,7 @@ const websiteSchema = {
   name: "Tryren",
   url: "https://tryren.in",
   description:
-    "AI-powered campus dating app that matches college students for real-life coffee meets — no swiping required.",
+    "AI-powered matchmaking platform that helps college students meet for real-life coffee meets — no swiping required.",
   potentialAction: {
     "@type": "SearchAction",
     target: "https://tryren.in/?q={search_term_string}",
@@ -46,7 +46,7 @@ const orgSchema = {
   },
   sameAs: ["https://www.instagram.com/tryren.in"],
   description:
-    "Tryren is an AI-powered dating platform for college students in India, focused on facilitating real-life coffee meets on campus.",
+    "Tryren is an AI-powered matchmaking platform for college students in India, focused on facilitating real-life coffee meets on campus.",
 };
 
 const faqSchema = {

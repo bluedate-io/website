@@ -23,20 +23,19 @@ export const metadata: Metadata = {
     template: "%s | Tryren",
   },
   description:
-    "Tryren uses AI to match you with one compatible person on campus every week for a real-life coffee meet — no swiping, no ghosting. Dating designed for college students in India.",
+    "Tryren uses AI to match you with one compatible person on campus every week for a real-life coffee meet — no swiping, no ghosting. Built for college students in India.",
   keywords: [
-    "college dating app India",
-    "AI dating app",
-    "campus dating",
+    "college matchmaking app India",
+    "AI matchmaking app",
+    "campus matchmaking",
     "real life meets college",
     "coffee meets college students",
-    "no swipe dating",
+    "no swipe matchmaking",
     "tryren",
-    "IIT dating app",
-    "NIT dating app",
+    "IIT matchmaking app",
+    "NIT matchmaking app",
     "college matchmaking India",
-    "AI matchmaking app",
-    "student dating app India",
+    "student matchmaking app India",
   ],
 
   authors: [{ name: "Tryren" }],
@@ -66,7 +65,7 @@ export const metadata: Metadata = {
     siteName: "Tryren",
     title: "Tryren — Real Coffee Meets at Your College, No Swiping",
     description:
-      "AI-powered campus dating. One curated match per week. Meet for a real coffee date — no random swipes, no wasted time.",
+      "AI-powered campus matchmaking. One curated match per week. Meet for a real coffee — no random swipes, no wasted time.",
     images: [
       {
         url: "/og-image.png",
@@ -81,7 +80,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tryren — Real Coffee Meets at Your College, No Swiping",
     description:
-      "AI-powered campus dating. One curated match per week. Meet for a real coffee date — no swipes needed.",
+      "AI-powered campus matchmaking. One curated match per week. Meet for a real coffee — no swipes needed.",
     images: ["/og-image.png"],
     creator: "@tryren_in",
   },
@@ -92,7 +91,7 @@ export const metadata: Metadata = {
     apple: "/logo.png",
   },
 
-  category: "dating",
+  category: "lifestyle",
 };
 
 export default function RootLayout({

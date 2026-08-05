@@ -7,7 +7,7 @@ import "./about.css";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Tryren is an AI-powered dating platform for college students in India — one curated match every week, real coffee meets on campus, no swiping.",
+    "Tryren is an AI-powered matchmaking platform for college students in India — one curated match every week, real coffee meets on campus, no swiping.",
   alternates: { canonical: "/about" },
 };
 
@@ -104,12 +104,12 @@ export default function AboutPage() {
           <header className="about__hero">
             <p className="about__label">About us</p>
             <h1 className="about__title">
-              Dating in the AI era,{" "}
+              Meeting people in the AI era,{" "}
               <span className="about__orange">done differently</span>
               <Squiggle />
             </h1>
             <p className="about__intro">
-              Tryren is a dating platform built for college students in India.
+              Tryren is a matchmaking platform built for college students in India.
               No swiping. No infinite scroll. No ghosting. Just one curated
               match every week and a real coffee meet to go with it.
             </p>

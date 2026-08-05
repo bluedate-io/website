@@ -61,7 +61,7 @@ const BadgeSVG = () => (
 )
 
 /* ─────────────────────────────────────────────────────────────
-   Safe #2 – Only your date sees you
+   Safe #2 – Only your match sees you
    Big clean padlock with heart keyhole
 ───────────────────────────────────────────────────────────── */
 const LockSVG = () => (
@@ -111,7 +111,7 @@ const LockSVG = () => (
 )
 
 /* ─────────────────────────────────────────────────────────────
-   Safe #3 – Coffee dates on campus
+   Safe #3 – Coffee meets on campus
    Clean coffee cup + simple building silhouette
 ───────────────────────────────────────────────────────────── */
 const CoffeeSVG = () => (
