@@ -32,7 +32,8 @@ export default function ContactPage() {
         </p>
         <p>
           For payment or refund support, include your registered email address, payment date, amount
-          and Razorpay payment ID. Never send complete card, UPI PIN, CVV or banking credentials.
+          and the payment gateway transaction ID. Never send complete card, UPI PIN, CVV or banking
+          credentials.
         </p>
       </section>
 
@@ -41,7 +42,8 @@ export default function ContactPage() {
         <p>
           Alla Naveen is the designated Grievance Officer. We acknowledge customer complaints and
           provide an initial response within five business days. Some matters may take longer to resolve
-          where investigation, user safety review, or information from Razorpay or a bank is required.
+          where investigation, user safety review, or information from the payment gateway or a bank
+          is required.
         </p>
       </section>
     </LegalPage>

@@ -16,7 +16,7 @@ export default function CancellationPolicyPage() {
       <section>
         <h2>1. Digital service and pricing</h2>
         <p>
-          Tryren provides a digital matchmaking service; no physical product is shipped. VIP access is
+          Tryren provides a digital service; no physical product is shipped. VIP access is
           currently displayed at ₹99 for the access period shown on the Membership &amp; Plans page in the app and at
           checkout. The final amount and billing arrangement are shown before you authorise payment.
         </p>
@@ -25,7 +25,8 @@ export default function CancellationPolicyPage() {
       <section>
         <h2>2. Cancelling before payment</h2>
         <p>
-          You may close or dismiss the Razorpay checkout before authorising payment. If payment is not
+          You may close or dismiss the payment gateway&apos;s checkout page before authorising
+          payment. If payment is not
           completed, you will not be charged and no cancellation fee applies.
         </p>
       </section>
@@ -36,7 +37,7 @@ export default function CancellationPolicyPage() {
           To cancel VIP access or any future renewal that was explicitly authorised at checkout, email
           <a href="mailto:admin@tryren.in"> admin@tryren.in</a> from your registered email address at
           least two business days before the next displayed billing date. Include your registered email,
-          phone number and Razorpay payment ID. We will confirm cancellation by email. Cancellation stops
+          phone number and the payment gateway transaction ID. We will confirm cancellation by email. Cancellation stops
           future charges; access already paid for normally continues until the end of the current access period.
         </p>
         <p>
@@ -56,8 +57,9 @@ export default function CancellationPolicyPage() {
         </ul>
         <p>
           Except in these cases, payments for digital access are non-refundable once VIP features have
-          been used or a weekly match has been processed. We do not issue refunds merely because no match
-          was available, a user did not like a match, another user did not respond, or the account was
+          been used or a weekly connection has been processed. We do not issue refunds merely
+          because no connection was available, a user did not like the outcome, another user did not
+          respond, or the account was
           suspended for breaching our Terms &amp; Conditions.
         </p>
       </section>
@@ -66,7 +68,8 @@ export default function CancellationPolicyPage() {
         <h2>5. How to request a refund</h2>
         <p>
           Email <a href="mailto:admin@tryren.in">admin@tryren.in</a> with the subject &quot;Refund request&quot;.
-          Include your registered email and phone number, payment date, amount, Razorpay payment ID and
+          Include your registered email and phone number, payment date, amount, payment gateway
+          transaction ID and
           reason. We may request information needed to verify the transaction. We normally review a
           complete request within three business days.
         </p>
@@ -78,7 +81,8 @@ export default function CancellationPolicyPage() {
           An approved refund is initiated to the original payment method within five business days. Your
           bank or payment provider may take a further five to seven business days to reflect it. We cannot
           send a refund to a different account. If money is debited for a failed or pending transaction,
-          Razorpay or your bank will usually reverse it automatically within five to seven business days.
+          the payment gateway or your bank will usually reverse it automatically within five to
+          seven business days.
           Contact us if it has not been reversed after seven business days. We will acknowledge a complete
           complaint within five business days.
         </p>

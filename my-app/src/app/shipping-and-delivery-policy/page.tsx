@@ -11,7 +11,7 @@ export default function DeliveryPolicyPage() {
   return (
     <LegalPage
       title="Shipping & Delivery Policy"
-      summary="Tryren provides digital services only. This policy explains when paid access is activated and how weekly matchmaking is delivered."
+      summary="Tryren provides digital services only. This policy explains when paid access is activated and how the weekly service is delivered."
     >
       <section>
         <h2>1. No physical shipping</h2>
@@ -24,18 +24,19 @@ export default function DeliveryPolicyPage() {
       <section>
         <h2>2. VIP access delivery</h2>
         <p>
-          After Razorpay confirms a successful payment, VIP access is normally activated in your
+          After the payment gateway confirms a successful payment, VIP access is normally activated
+          in your
           registered Tryren account immediately and no later than 24 hours. A payment receipt or status
           may also be sent to your registered email address or phone number.
         </p>
       </section>
 
       <section>
-        <h2>3. Matchmaking schedule</h2>
+        <h2>3. Service schedule</h2>
         <p>
-          Weekly match consideration depends on your timely opt-in, eligibility, preferences and the
+          Weekly delivery depends on your timely opt-in, eligibility, preferences and the
           availability of compatible participating users. A successful payment provides access to the
-          displayed VIP features but does not guarantee a match or a particular outcome. Match notices
+          displayed VIP features but does not guarantee a particular outcome. Service notices
           are delivered through the Tryren app, email or WhatsApp, as disclosed during onboarding.
         </p>
       </section>
@@ -45,7 +46,8 @@ export default function DeliveryPolicyPage() {
         <p>
           If paid access is not activated within 24 hours, contact us at{" "}
           <a href="mailto:admin@tryren.in">admin@tryren.in</a> with your registered email address and
-          Razorpay payment ID. We acknowledge complete complaints within five business days. Refund
+          the payment gateway transaction ID. We acknowledge complete complaints within five business
+          days. Refund
           eligibility and timelines are described in our{" "}
           <a href="/cancellation-and-refund-policy">Cancellation &amp; Refund Policy</a>.
         </p>

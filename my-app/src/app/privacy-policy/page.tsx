@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
         <h2>1. Scope and contact</h2>
         <p>
           This policy applies to the Tryren website, application, WhatsApp onboarding and related
-          matchmaking, support and payment services. Tryren is operated by Alla Naveen, who is
+          support and payment services. Tryren is operated by Alla Naveen, who is
           responsible for the personal data processed for these services. Our address is D. No.
           32-9-2/1, Dasari Lingiah Street, Madhu Gardens, Vijayawada, Andhra Pradesh 520010, India.
         </p>
@@ -28,8 +28,8 @@ export default function PrivacyPolicyPage() {
         <ul>
           <li>Account and verification data, such as name, email address, phone number, one-time passcode status, user type, college and invite information.</li>
           <li>Profile and preference data, such as date of birth, city, gender identity and preferences, photos, bio, height, interests, relationship goals, religion, politics, family preferences and smoking or drinking choices.</li>
-          <li>Match and communication data, such as weekly opt-ins, match selections, support requests, email and WhatsApp delivery records and reports about another user.</li>
-          <li>Payment records, such as order ID, payment status, amount, plan and timestamps. Complete card, bank and UPI credentials are collected by Razorpay and are not stored by Tryren.</li>
+          <li>Communication data, such as weekly opt-ins, selections, support requests, email and WhatsApp delivery records and reports about another user.</li>
+          <li>Payment records, such as order ID, payment status, amount, plan and timestamps. Complete card, bank and UPI credentials are collected by the payment gateway and are not stored by Tryren.</li>
           <li>Technical and usage data, such as IP address, device and browser details, pages viewed, cookies, error logs, analytics events and approximate location inferred from network information.</li>
         </ul>
         <p>We receive data directly from you, from your use of Tryren and from service providers that process authentication, communications, analytics, hosting and payments for us.</p>
@@ -39,9 +39,9 @@ export default function PrivacyPolicyPage() {
         <h2>3. How we use data</h2>
         <ul>
           <li>create and secure your account, verify eligibility and complete onboarding;</li>
-          <li>display your profile, apply preferences, operate weekly matchmaking and provide match contact details;</li>
+          <li>display your profile, apply preferences, operate the weekly service and provide connection details when confirmed;</li>
           <li>process and verify payments, activate VIP access and maintain transaction records;</li>
-          <li>send OTPs, match notices, service updates and support responses through email, SMS or WhatsApp;</li>
+          <li>send OTPs, service notices, updates and support responses through email, SMS or WhatsApp;</li>
           <li>prevent fraud, investigate reports, enforce our terms and protect users; and</li>
           <li>monitor performance, fix errors, understand feature use and comply with legal obligations.</li>
         </ul>
@@ -55,8 +55,8 @@ export default function PrivacyPolicyPage() {
       <section>
         <h2>4. When we share data</h2>
         <ul>
-          <li>With a selected match: profile information and, after a match is confirmed, the contact details needed for you to connect. We do not make your profile publicly searchable on the open web.</li>
-          <li>With processors: hosting and storage providers, Razorpay, email and WhatsApp/SMS providers, analytics, error monitoring and customer-support providers, only as needed to perform services for us. This includes sharing the information required to process a payment, prevent fraud, resolve disputes and comply with payment-network or legal requirements.</li>
+          <li>With a selected connection: profile information and, once a connection is confirmed, the contact details needed for you to connect. We do not make your profile publicly searchable on the open web.</li>
+          <li>With processors: hosting and storage providers, payment gateway providers, email and WhatsApp/SMS providers, analytics, error monitoring and customer-support providers, only as needed to perform services for us. This includes sharing the information required to process a payment, prevent fraud, resolve disputes and comply with payment-network or legal requirements.</li>
           <li>For legal and safety reasons: regulators, courts, law enforcement or advisers where required by law or reasonably necessary to protect rights, users and the public.</li>
           <li>For a business transfer: a successor in a merger, financing, reorganisation or sale, subject to appropriate confidentiality and notice requirements.</li>
         </ul>

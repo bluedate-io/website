@@ -11,13 +11,13 @@ export default function TermsPage() {
   return (
     <LegalPage
       title="Terms & Conditions"
-      summary="These terms govern your access to Tryren, our campus-focused social and matchmaking service, including the purchase and use of VIP access."
+      summary="These terms govern your access to Tryren, our campus-focused social service, including the purchase and use of VIP access."
     >
       <section>
         <h2>1. About Tryren</h2>
         <p>
           Tryren (&quot;Tryren&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) is operated in India by Alla Naveen and provides a digital platform where eligible
-          adults can create profiles, opt in to weekly matchmaking and, when matched, connect
+          adults can create profiles, opt in to the weekly service and, when selected, connect
           with another user. Tryren does not sell physical goods and does not provide escort,
           sexual or adult entertainment services.
         </p>
@@ -53,10 +53,11 @@ export default function TermsPage() {
       </section>
 
       <section>
-        <h2>4. Matchmaking and user safety</h2>
+        <h2>4. Service and user safety</h2>
         <p>
-          Matches depend on available users, preferences, eligibility and weekly participation.
-          Payment does not guarantee a match, compatibility, a response or any particular outcome.
+          Availability and outcomes depend on participating users, preferences, eligibility and
+          weekly participation.
+          Payment does not guarantee a connection, compatibility, a response or any particular outcome.
           We do not conduct exhaustive background checks and do not endorse or guarantee any user.
           Use independent judgment, protect financial and personal information, and meet in public
           places. Report suspicious, abusive or unsafe conduct to us promptly.
@@ -85,7 +86,8 @@ export default function TermsPage() {
           billing frequency and applicable taxes will be clearly presented before you authorise payment.
         </p>
         <p>
-          Payments are processed through Razorpay or another disclosed payment provider. We do not
+          Payments are processed through a third-party payment gateway (such as Stripe, PayU, PayPal
+          or another disclosed payment provider). We do not
           receive or store your complete card, UPI or banking credentials. Your payment may also be
           governed by the payment provider&apos;s and your bank&apos;s terms. A payment is complete only after
           successful verification. For cancellations, duplicate charges, failed payments and refund
