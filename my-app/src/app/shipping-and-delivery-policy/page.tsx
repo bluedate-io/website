@@ -45,7 +45,7 @@ export default function DeliveryPolicyPage() {
         <h2>4. Delivery issues</h2>
         <p>
           If paid access is not activated within 24 hours, contact us at{" "}
-          <a href="mailto:admin@tryren.in">admin@tryren.in</a> with your registered email address and
+          <a href="mailto:bluedate.io@gmail.com">bluedate.io@gmail.com</a> with your registered email address and
           the payment gateway transaction ID. We acknowledge complete complaints within five business
           days. Refund
           eligibility and timelines are described in our{" "}

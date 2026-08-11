@@ -35,7 +35,7 @@ export default function CancellationPolicyPage() {
         <h2>3. Cancelling VIP access</h2>
         <p>
           To cancel VIP access or any future renewal that was explicitly authorised at checkout, email
-          <a href="mailto:admin@tryren.in"> admin@tryren.in</a> from your registered email address at
+          <a href="mailto:bluedate.io@gmail.com"> bluedate.io@gmail.com</a> from your registered email address at
           least two business days before the next displayed billing date. Include your registered email,
           phone number and the payment gateway transaction ID. We will confirm cancellation by email. Cancellation stops
           future charges; access already paid for normally continues until the end of the current access period.
@@ -67,7 +67,7 @@ export default function CancellationPolicyPage() {
       <section>
         <h2>5. How to request a refund</h2>
         <p>
-          Email <a href="mailto:admin@tryren.in">admin@tryren.in</a> with the subject &quot;Refund request&quot;.
+          Email <a href="mailto:bluedate.io@gmail.com">bluedate.io@gmail.com</a> with the subject &quot;Refund request&quot;.
           Include your registered email and phone number, payment date, amount, payment gateway
           transaction ID and
           reason. We may request information needed to verify the transaction. We normally review a
@@ -93,7 +93,7 @@ export default function CancellationPolicyPage() {
         <p>
           Please contact us first so we can investigate promptly. This does not restrict your right to
           contact your bank or payment provider. Questions about cancellations or refunds can be sent to
-          <a href="mailto:admin@tryren.in"> admin@tryren.in</a>, by phone at{" "}
+          <a href="mailto:bluedate.io@gmail.com"> bluedate.io@gmail.com</a>, by phone at{" "}
           <a href="tel:+918309671828">+91 83096 71828</a>, or through our <a href="/contact-us">Contact Us page</a>.
         </p>
       </section>

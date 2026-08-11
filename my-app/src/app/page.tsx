@@ -40,7 +40,7 @@ const orgSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+91-83096-71828",
-    email: "admin@tryren.in",
+    email: "bluedate.io@gmail.com",
     contactType: "customer support",
     availableLanguage: ["English"],
   },

@@ -26,7 +26,7 @@ export default function ContactPage() {
       <section>
         <h2>Customer support</h2>
         <p>
-          Email: <a href="mailto:admin@tryren.in">admin@tryren.in</a><br />
+          Email: <a href="mailto:bluedate.io@gmail.com">bluedate.io@gmail.com</a><br />
           Phone: <a href="tel:+918309671828">+91 83096 71828</a><br />
           Support hours: Monday to Friday, 10:00 AM to 6:00 PM IST, excluding public holidays.
         </p>
