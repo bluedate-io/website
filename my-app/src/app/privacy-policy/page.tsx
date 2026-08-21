@@ -110,7 +110,7 @@ export default function PrivacyPolicyPage() {
         <h2>9. Grievance redressal</h2>
         <p>
           Alla Naveen is Tryren&apos;s Grievance Officer. To report a privacy, payment, safety or service
-          concern, email <a href="mailto:bluedate.io@gmail.com">bluedate.io@gmail.com</a>, call{" "}
+          concern, email <a href="mailto:admin@tryren.in">admin@tryren.in</a>, call{" "}
           <a href="tel:+918309671828">+91 83096 71828</a>, or use the details on our{" "}
           <a href="/contact-us">Contact Us page</a>. We acknowledge complaints and provide an initial
           response within five business days. Resolution time may vary where investigation or third-party
