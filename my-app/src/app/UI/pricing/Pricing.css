@@ -1,0 +1,307 @@
+/* ── Section ─────────────────────────────────────────────────── */
+.pricing {
+    width: 100%;
+    padding: 48px 20px 80px;
+    box-sizing: border-box;
+    content-visibility: auto;
+}
+
+.pricing__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* ── Section heading ─────────────────────────────────────────── */
+.pricing__heading {
+    text-align: center;
+}
+
+.pricing__eyebrow {
+    font-family: cursive;
+    font-size: 1rem;
+    color: var(--accent-orange);
+    margin-bottom: 8px;
+}
+
+.pricing__heading h2 {
+    font-family: 'Font1', sans-serif;
+    font-size: clamp(2rem, 7vw, 3.2rem);
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1.15;
+    margin: 0;
+}
+
+.pricing__orange {
+    color: var(--accent-orange);
+}
+
+.pricing__subtitle {
+    font-family: 'Font4', sans-serif;
+    font-size: clamp(1rem, 3.5vw, 1.15rem);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 12px auto 0;
+    max-width: 520px;
+}
+
+/* ── Cards grid ──────────────────────────────────────────────── */
+.pricing__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* ── Single card ─────────────────────────────────────────────── */
+.pricing__card {
+    background-color: var(--surface);
+    border: 2.5px solid var(--border-strong);
+    border-radius: 20px;
+    padding: 28px 24px 32px;
+    box-shadow: 4px 4px 0px var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    transition: transform 0.18s ease;
+    cursor: default;
+    position: relative;
+}
+
+.pricing__card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px var(--shadow);
+}
+
+/* ── Featured / VIP card ─────────────────────────────────────── */
+.pricing__card--featured {
+    background-color: var(--surface-accent);
+    box-shadow: 4px 4px 0px var(--accent-orange);
+    border-color: var(--accent-orange);
+}
+
+.pricing__card--featured:hover {
+    box-shadow: 6px 6px 0px var(--accent-orange);
+}
+
+.pricing__badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background-color: var(--accent-orange);
+    color: #fff;
+    font-family: 'Font1', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 0px var(--shadow);
+}
+
+/* ── Card header ─────────────────────────────────────────────── */
+.pricing__card-header {
+    margin-bottom: 20px;
+}
+
+.pricing__plan-name {
+    font-family: 'Font1', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin: 0 0 4px;
+    letter-spacing: 0.02em;
+}
+
+.pricing__card--featured .pricing__plan-name {
+    color: var(--on-accent);
+}
+
+.pricing__price {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    margin: 0;
+}
+
+.pricing__amount {
+    font-family: 'Font1', sans-serif;
+    font-size: clamp(2.2rem, 7vw, 2.8rem);
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.1;
+}
+
+.pricing__card--featured .pricing__amount {
+    color: var(--on-accent);
+}
+
+.pricing__period {
+    font-family: 'Font4', sans-serif;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.pricing__card--featured .pricing__period {
+    color: var(--on-accent-muted);
+}
+
+/* ── Divider ─────────────────────────────────────────────────── */
+.pricing__divider {
+    width: 100%;
+    height: 2px;
+    background: var(--faq-divider);
+    border: none;
+    margin: 0 0 20px;
+}
+
+.pricing__card--featured .pricing__divider {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* ── Feature list ────────────────────────────────────────────── */
+.pricing__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+}
+
+.pricing__feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: 'Font4', sans-serif;
+    font-size: 0.98rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.pricing__card--featured .pricing__feature {
+    color: var(--on-accent-muted);
+}
+
+.pricing__icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.pricing__icon--check svg {
+    color: var(--accent-orange);
+}
+
+.pricing__icon--cross svg {
+    color: var(--text-faint);
+}
+
+.pricing__card--featured .pricing__icon--cross svg {
+    color: var(--on-accent-muted);
+}
+
+/* ── CTA button ──────────────────────────────────────────────── */
+.pricing__cta {
+    display: inline-block;
+    font-family: 'Font1', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.65rem 2rem;
+    border-radius: 1.5rem;
+    border: 2.5px solid var(--border-strong);
+    background-color: var(--surface);
+    color: var(--text-primary);
+    box-shadow: 3px 3px 0px var(--shadow);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    margin-top: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pricing__cta:hover {
+    box-shadow: 5px 5px 0px var(--shadow);
+    transform: translate(-1px, -1px);
+}
+
+.pricing__cta:active {
+    box-shadow: 1px 1px 0px var(--shadow);
+    transform: translate(2px, 2px);
+}
+
+/* Featured CTA */
+.pricing__cta--featured {
+    background-color: var(--accent-orange);
+    border-color: var(--accent-orange);
+    color: #fff;
+    box-shadow: 3px 3px 0px var(--shadow);
+}
+
+.pricing__cta--featured:hover {
+    box-shadow: 5px 5px 0px var(--shadow);
+    transform: translate(-1px, -1px);
+}
+
+.pricing__cta--featured:active {
+    box-shadow: 1px 1px 0px var(--shadow);
+    transform: translate(2px, 2px);
+}
+
+/* ── Enable GPU layer only on pointer/hover devices ─────────── */
+@media (hover: hover) {
+    .pricing__card {
+        will-change: transform;
+    }
+}
+
+/* ── Tablet (≥ 600px) ────────────────────────────────────────── */
+@media (min-width: 600px) {
+    .pricing {
+        padding: 64px 32px 96px;
+    }
+
+    .pricing__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        align-items: start;
+    }
+}
+
+/* ── Laptop (≥ 900px) ────────────────────────────────────────── */
+@media (min-width: 900px) {
+    .pricing {
+        padding: 80px 40px 120px;
+    }
+
+    .pricing__cards {
+        gap: 20px;
+    }
+
+    .pricing__card--featured {
+        margin-top: -16px;
+    }
+}
+
+/* ── Desktop (≥ 1100px) ──────────────────────────────────────── */
+@media (min-width: 1100px) {
+    .pricing {
+        padding: 80px 0 120px;
+    }
+}

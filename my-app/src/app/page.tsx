@@ -2,6 +2,7 @@ import Hero from "@/app/UI/hero/hero";
 import Navbar from "./components/navbar/navbar";
 import HowItWorks from "./UI/how-it-works/HowItWorks";
 import Trust from "./UI/trust/Trust";
+import Pricing from "./UI/pricing/Pricing";
 import FAQ from "./UI/faq/FAQ";
 import Footer from "./components/footer/Footer";
 
@@ -109,6 +110,7 @@ export default function Home() {
           <Hero />
           <HowItWorks />
           <Trust />
+          <Pricing />
           <FAQ />
           <Footer />
         </div>
