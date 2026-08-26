@@ -15,6 +15,7 @@ const Footer = () => {
         <nav className="footer__nav">
           <div className="footer__nav-col">
             <Link href="/about" className="footer__link">About Tryren</Link>
+            <Link href="/pricing" className="footer__link">Pricing</Link>
             <Link href="/contact-us" className="footer__link">Contact Us</Link>
             <a
               href="https://www.instagram.com/tryren.in/"
